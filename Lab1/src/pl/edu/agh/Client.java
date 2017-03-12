@@ -8,6 +8,8 @@ import java.util.Scanner;
 public class Client {
 
 
+    private static String nick;
+
     public static void main(String[] args) throws IOException {
 
         Socket socket = new Socket();
@@ -20,17 +22,17 @@ public class Client {
 
         System.out.println("Enter nick:");
         Scanner scanner = new Scanner(System.in);
-        String nick = scanner.nextLine();
+        nick = scanner.nextLine();
 
         PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
 
         printWriter.write(nick + '\n');
         printWriter.flush();
 
-        Scanner finalScanner = new Scanner(socket.getInputStream());
+        Scanner tcpScanner = new Scanner(socket.getInputStream());
         new Thread(() -> {
-            while (finalScanner.hasNextLine()) {
-                System.out.println("TCP " + finalScanner.nextLine());
+            while (tcpScanner.hasNextLine()) {
+                System.out.println("TCP " + tcpScanner.nextLine());
             }
 
         }).start();
@@ -59,7 +61,7 @@ public class Client {
     private static void openUDPListener(DatagramSocket datagramSocket) {
         new Thread(() -> {
             try {
-                while (true) {
+                while (!datagramSocket.isClosed()) {
                     byte[] buff = new byte[500];
                     DatagramPacket datagramPacket = new DatagramPacket(buff, buff.length);
                     datagramSocket.receive(datagramPacket);
@@ -77,12 +79,14 @@ public class Client {
             try {
                 MulticastSocket multicastSocket = new MulticastSocket(Server.MULTICAST_PORT);
                 multicastSocket.joinGroup(InetAddress.getByName(Server.MULTICAST_IP));
-                while (true) {
+                while (!multicastSocket.isClosed()) {
                     byte[] buff = new byte[500];
                     DatagramPacket datagramPacket = new DatagramPacket(buff, buff.length);
                     multicastSocket.receive(datagramPacket);
                     String message = new String(buff);
-                    System.out.println("MultiCast UDP " + message);
+                    if (!message.startsWith(nick + ":")) {
+                        System.out.println("MultiCast UDP " + message);
+                    }
                 }
             } catch (IOException e) {
                 e.printStackTrace();

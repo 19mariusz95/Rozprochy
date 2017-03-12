@@ -13,6 +13,7 @@ public class ClientHandler extends Thread {
 
     public ClientHandler(Socket socket) throws IOException {
         this.socket = socket;
+
         scanner = new Scanner(socket.getInputStream());
         printWriter = new PrintWriter(socket.getOutputStream(), true);
 
@@ -29,7 +30,7 @@ public class ClientHandler extends Thread {
     }
 
     public void send(String message) {
-        printWriter.write(message);
+        printWriter.write(message + '\n');
         printWriter.flush();
     }
 

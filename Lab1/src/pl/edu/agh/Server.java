@@ -69,7 +69,7 @@ public class Server {
             ServerSocket serverSocket = null;
             try {
                 serverSocket = new ServerSocket(PORT);
-                while (true) {
+                while (!serverSocket.isClosed()) {
                     ClientHandler clientHandler = new ClientHandler(serverSocket.accept());
                     clientHandler.start();
                 }
