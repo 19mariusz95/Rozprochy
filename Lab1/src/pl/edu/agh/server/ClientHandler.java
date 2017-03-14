@@ -1,9 +1,11 @@
-package pl.edu.agh;
+package pl.edu.agh.server;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
+
+import static pl.edu.agh.server.Server.clientHandlerMap;
 
 public class ClientHandler implements Runnable {
 
@@ -25,13 +27,21 @@ public class ClientHandler implements Runnable {
         Server.registerUser(nick, this);
         while (scanner.hasNextLine()) {
             String message = scanner.nextLine();
-            Server.sendToAll(nick, message);
+            sendToAll(nick, message);
         }
     }
 
-    public void send(String message) {
+    private void send(String message) {
         printWriter.write(message + '\n');
         printWriter.flush();
+    }
+
+    private void sendToAll(String nick, String message) {
+        synchronized (clientHandlerMap) {
+            clientHandlerMap.entrySet().stream()
+                    .filter(a -> !a.getKey().equals(nick))
+                    .forEach(a -> a.getValue().send(nick + ":" + message));
+        }
     }
 
     public Socket getSocket() {
