@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ClientHandler extends Thread {
+public class ClientHandler implements Runnable {
 
     private final Scanner scanner;
     private final PrintWriter printWriter;

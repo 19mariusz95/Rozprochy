@@ -8,7 +8,10 @@ import java.util.Scanner;
 public class Client {
 
 
+    public static final String MULTICAST_IP = "230.1.1.1";
+    public static final int MULTICAST_PORT = 12344;
     private static String nick;
+    private static byte[] asciiBytes;
 
     public static void main(String[] args) throws IOException {
 
@@ -23,6 +26,13 @@ public class Client {
         System.out.println("Enter nick:");
         Scanner scanner = new Scanner(System.in);
         nick = scanner.nextLine();
+
+        asciiBytes = (nick + ":                    \n" +
+                "                 _.-;;-._\n" +
+                "          '-..-'|   ||   |\n" +
+                "          '-..-'|_.-;;-._|\n" +
+                "          '-..-'|   ||   |\n" +
+                "    jgs   '-..-'|_.-''-._|").getBytes();
 
         PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
 
@@ -39,16 +49,12 @@ public class Client {
 
         while (scanner.hasNextLine()) {
             String message = scanner.nextLine();
-            if (message.equals("M") || message.equals("N")) {
+            if (message.equals("M")) {
                 InetAddress IPAddress = InetAddress.getByName("localhost");
-
-                byte[] bytes = (nick + ":" + message + ":                    \n" +
-                        "                 _.-;;-._\n" +
-                        "          '-..-'|   ||   |\n" +
-                        "          '-..-'|_.-;;-._|\n" +
-                        "          '-..-'|   ||   |\n" +
-                        "    jgs   '-..-'|_.-''-._|").getBytes();
-                datagramSocket.send(new DatagramPacket(bytes, bytes.length, IPAddress, Server.PORT));
+                datagramSocket.send(new DatagramPacket(asciiBytes, asciiBytes.length, IPAddress, Server.PORT));
+            } else if (message.equals("N")) {
+                InetAddress IPAddress = InetAddress.getByName(MULTICAST_IP);
+                datagramSocket.send(new DatagramPacket(asciiBytes, asciiBytes.length, IPAddress, MULTICAST_PORT));
             } else {
                 printWriter.write(message + '\n');
                 printWriter.flush();
@@ -77,8 +83,8 @@ public class Client {
     private static void openMultiCast() {
         new Thread(() -> {
             try {
-                MulticastSocket multicastSocket = new MulticastSocket(Server.MULTICAST_PORT);
-                multicastSocket.joinGroup(InetAddress.getByName(Server.MULTICAST_IP));
+                MulticastSocket multicastSocket = new MulticastSocket(MULTICAST_PORT);
+                multicastSocket.joinGroup(InetAddress.getByName(MULTICAST_IP));
                 while (!multicastSocket.isClosed()) {
                     byte[] buff = new byte[500];
                     DatagramPacket datagramPacket = new DatagramPacket(buff, buff.length);
