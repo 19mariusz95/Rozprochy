@@ -9,6 +9,17 @@ repositories {
     mavenCentral()
 }
 
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': version,
+                'Main-Class': 'pl.edu.agh.dsrg.sr.chat.ChatClient'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.jgroups', name: 'jgroups', version: '3.6.13.Final'
