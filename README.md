@@ -1,5 +1,7 @@
 # Rozprochy
 
 ## DO NOT COPY
+## DO NOT CLONE
+## DO NOT DO ANYTHING WITH THIS CODE
 
 ### © COPYRIGHT Mariusz Skrabacz 2017
