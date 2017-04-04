@@ -1,0 +1,14 @@
+group 'pl.edu.agh.ki.sr'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.rabbitmq:amqp-client:4.1.0'
+}
