@@ -10,5 +10,7 @@ repositories {
 }
 
 dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
     compile 'com.rabbitmq:amqp-client:4.1.0'
 }
