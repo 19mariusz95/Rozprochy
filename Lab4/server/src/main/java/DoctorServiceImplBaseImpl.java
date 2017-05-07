@@ -26,23 +26,20 @@ public class DoctorServiceImplBaseImpl extends DoctorServiceGrpc.DoctorServiceIm
     }
 
     @Override
-    public void requestMedicalExamsForDoctor(Hospital.Request request, StreamObserver<Hospital.MedicalExams> responseObserver) {
+    public void requestMedicalExamsForDoctor(Hospital.Request request, StreamObserver<Hospital.MedicalExam> responseObserver) {
         checkPermission(request.getId());
-        List<Hospital.MedicalExam> exams = Server.exams.stream().filter(e -> e.getDoctor().getIdentity().getId() == request.getId()).collect(Collectors.toList());
-        Hospital.MedicalExams medicalExams = Hospital.MedicalExams.newBuilder().addAllExams(exams).build();
-        responseObserver.onNext(medicalExams);
+        Server.exams.stream().filter(e -> e.getDoctor().getIdentity().getId() == request.getId())
+                .forEach(responseObserver::onNext);
         responseObserver.onCompleted();
     }
 
     @Override
-    public void requestResultsInRange(Hospital.FilterByRangeRequest request, StreamObserver<Hospital.MedicalExams> responseObserver) {
+    public void requestResultsInRange(Hospital.FilterByRangeRequest request, StreamObserver<Hospital.MedicalExam> responseObserver) {
         checkPermission(request.getId());
-        List<Hospital.MedicalExam> medicalExams = Server.exams.stream().filter(e -> {
+        Server.exams.stream().filter(e -> {
             double value = e.getResultsMap().get(request.getName()).getValue();
             return value >= request.getMinValue() && value <= request.getMaxValue();
-        }).collect(Collectors.toList());
-        Hospital.MedicalExams exams = Hospital.MedicalExams.newBuilder().addAllExams(medicalExams).build();
-        responseObserver.onNext(exams);
+        }).forEach(responseObserver::onNext);
         responseObserver.onCompleted();
     }
 

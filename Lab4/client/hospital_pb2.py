@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='hospital.proto',
   package='',
   syntax='proto3',
-  serialized_pb=_b('\n\x0ehospital.proto\"\x15\n\x07Request\x12\n\n\x02id\x18\x01 \x01(\x03\"\x1a\n\x08Response\x12\x0e\n\x06status\x18\x01 \x01(\t\";\n\x06Person\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x12\n\nfirst_name\x18\x02 \x01(\t\x12\x11\n\tlast_name\x18\x03 \x01(\t\"$\n\x07Patient\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"&\n\x08Patients\x12\x1a\n\x08patients\x18\x01 \x03(\x0b\x32\x08.Patient\"#\n\x06\x44octor\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"#\n\x07\x44octors\x12\x18\n\x07\x64octors\x18\x01 \x03(\x0b\x32\x07.Doctor\" \n\x03Lab\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"\x1a\n\x04Labs\x12\x12\n\x04labs\x18\x01 \x03(\x0b\x32\x04.Lab\"\xd3\x01\n\x0bMedicalExam\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x19\n\x07patient\x18\x02 \x01(\x0b\x32\x08.Patient\x12\x17\n\x06\x64octor\x18\x03 \x01(\x0b\x32\x07.Doctor\x12\x11\n\x03lab\x18\x04 \x01(\x0b\x32\x04.Lab\x12\x0c\n\x04time\x18\x05 \x01(\t\x12*\n\x07results\x18\x06 \x03(\x0b\x32\x19.MedicalExam.ResultsEntry\x1a\x37\n\x0cResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x16\n\x05value\x18\x02 \x01(\x0b\x32\x07.Result:\x02\x38\x01\"+\n\x0cMedicalExams\x12\x1b\n\x05\x65xams\x18\x01 \x03(\x0b\x32\x0c.MedicalExam\"V\n\x14\x46ilterByRangeRequest\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tmin_value\x18\x03 \x01(\x01\x12\x11\n\tmax_value\x18\x04 \x01(\x01\"%\n\x06Result\x12\r\n\x05value\x18\x01 \x01(\x01\x12\x0c\n\x04unit\x18\x02 \x01(\t\"\xa6\x01\n\x0e\x41\x64\x64\x45xamRequest\x12\x0e\n\x06\x64octor\x18\x01 \x01(\x03\x12\x0f\n\x07patient\x18\x02 \x01(\x03\x12\x0b\n\x03lab\x18\x03 \x01(\x03\x12-\n\x07results\x18\x04 \x03(\x0b\x32\x1c.AddExamRequest.ResultsEntry\x1a\x37\n\x0cResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x16\n\x05value\x18\x02 \x01(\x0b\x32\x07.Result:\x02\x38\x01\"8\n\x0fRegisterRequest\x12\x12\n\nfirst_name\x18\x01 \x01(\t\x12\x11\n\tlast_name\x18\x02 \x01(\t2@\n\x0ePatientService\x12.\n\x11RequestAllResults\x12\x08.Request\x1a\r.MedicalExams\"\x00\x32\xeb\x01\n\rDoctorService\x12+\n\x12RequestAllPatients\x12\x08.Request\x1a\t.Patients\"\x00\x12\x31\n\x18RequestPatientsForDoctor\x12\x08.Request\x1a\t.Patients\"\x00\x12\x39\n\x1cRequestMedicalExamsForDoctor\x12\x08.Request\x1a\r.MedicalExams\"\x00\x12?\n\x15RequestResultsInRange\x12\x15.FilterByRangeRequest\x1a\r.MedicalExams\"\x00\x32n\n\nLabService\x12*\n\nAddResults\x12\x0f.AddExamRequest\x1a\t.Response\"\x00\x12\x34\n\x17RequestAllResultsForLab\x12\x08.Request\x1a\r.MedicalExams\"\x00\x32\xb0\x01\n\rPublicService\x12#\n\x0bListDoctors\x12\x08.Request\x1a\x08.Doctors\"\x00\x12\x1d\n\x08ListLabs\x12\x08.Request\x1a\x05.Labs\"\x00\x12/\n\x0fRegisterPatient\x12\x10.RegisterRequest\x1a\x08.Patient\"\x00\x12*\n\x13RequestPersonalData\x12\x08.Request\x1a\x07.Person\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x0ehospital.proto\"\x15\n\x07Request\x12\n\n\x02id\x18\x01 \x01(\x03\"\x1a\n\x08Response\x12\x0e\n\x06status\x18\x01 \x01(\t\";\n\x06Person\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x12\n\nfirst_name\x18\x02 \x01(\t\x12\x11\n\tlast_name\x18\x03 \x01(\t\"$\n\x07Patient\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"&\n\x08Patients\x12\x1a\n\x08patients\x18\x01 \x03(\x0b\x32\x08.Patient\"#\n\x06\x44octor\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"#\n\x07\x44octors\x12\x18\n\x07\x64octors\x18\x01 \x03(\x0b\x32\x07.Doctor\" \n\x03Lab\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"\x1a\n\x04Labs\x12\x12\n\x04labs\x18\x01 \x03(\x0b\x32\x04.Lab\"\xd3\x01\n\x0bMedicalExam\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x19\n\x07patient\x18\x02 \x01(\x0b\x32\x08.Patient\x12\x17\n\x06\x64octor\x18\x03 \x01(\x0b\x32\x07.Doctor\x12\x11\n\x03lab\x18\x04 \x01(\x0b\x32\x04.Lab\x12\x0c\n\x04time\x18\x05 \x01(\t\x12*\n\x07results\x18\x06 \x03(\x0b\x32\x19.MedicalExam.ResultsEntry\x1a\x37\n\x0cResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x16\n\x05value\x18\x02 \x01(\x0b\x32\x07.Result:\x02\x38\x01\"V\n\x14\x46ilterByRangeRequest\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tmin_value\x18\x03 \x01(\x01\x12\x11\n\tmax_value\x18\x04 \x01(\x01\"%\n\x06Result\x12\r\n\x05value\x18\x01 \x01(\x01\x12\x0c\n\x04unit\x18\x02 \x01(\t\"\xa6\x01\n\x0e\x41\x64\x64\x45xamRequest\x12\x0e\n\x06\x64octor\x18\x01 \x01(\x03\x12\x0f\n\x07patient\x18\x02 \x01(\x03\x12\x0b\n\x03lab\x18\x03 \x01(\x03\x12-\n\x07results\x18\x04 \x03(\x0b\x32\x1c.AddExamRequest.ResultsEntry\x1a\x37\n\x0cResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x16\n\x05value\x18\x02 \x01(\x0b\x32\x07.Result:\x02\x38\x01\"8\n\x0fRegisterRequest\x12\x12\n\nfirst_name\x18\x01 \x01(\t\x12\x11\n\tlast_name\x18\x02 \x01(\t2A\n\x0ePatientService\x12/\n\x11RequestAllResults\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x32\xed\x01\n\rDoctorService\x12+\n\x12RequestAllPatients\x12\x08.Request\x1a\t.Patients\"\x00\x12\x31\n\x18RequestPatientsForDoctor\x12\x08.Request\x1a\t.Patients\"\x00\x12:\n\x1cRequestMedicalExamsForDoctor\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x12@\n\x15RequestResultsInRange\x12\x15.FilterByRangeRequest\x1a\x0c.MedicalExam\"\x00\x30\x01\x32o\n\nLabService\x12*\n\nAddResults\x12\x0f.AddExamRequest\x1a\t.Response\"\x00\x12\x35\n\x17RequestAllResultsForLab\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x32\xb0\x01\n\rPublicService\x12#\n\x0bListDoctors\x12\x08.Request\x1a\x08.Doctors\"\x00\x12\x1d\n\x08ListLabs\x12\x08.Request\x1a\x05.Labs\"\x00\x12/\n\x0fRegisterPatient\x12\x10.RegisterRequest\x1a\x08.Patient\"\x00\x12*\n\x13RequestPersonalData\x12\x08.Request\x1a\x07.Person\"\x00\x62\x06proto3')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -422,37 +422,6 @@ _MEDICALEXAM = _descriptor.Descriptor(
 )
 
 
-_MEDICALEXAMS = _descriptor.Descriptor(
-  name='MedicalExams',
-  full_name='MedicalExams',
-  filename=None,
-  file=DESCRIPTOR,
-  containing_type=None,
-  fields=[
-    _descriptor.FieldDescriptor(
-      name='exams', full_name='MedicalExams.exams', index=0,
-      number=1, type=11, cpp_type=10, label=3,
-      has_default_value=False, default_value=[],
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-  ],
-  extensions=[
-  ],
-  nested_types=[],
-  enum_types=[
-  ],
-  options=None,
-  is_extendable=False,
-  syntax='proto3',
-  extension_ranges=[],
-  oneofs=[
-  ],
-  serialized_start=558,
-  serialized_end=601,
-)
-
-
 _FILTERBYRANGEREQUEST = _descriptor.Descriptor(
   name='FilterByRangeRequest',
   full_name='FilterByRangeRequest',
@@ -500,8 +469,8 @@ _FILTERBYRANGEREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=603,
-  serialized_end=689,
+  serialized_start=558,
+  serialized_end=644,
 )
 
 
@@ -538,8 +507,8 @@ _RESULT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=691,
-  serialized_end=728,
+  serialized_start=646,
+  serialized_end=683,
 )
 
 
@@ -627,8 +596,8 @@ _ADDEXAMREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=731,
-  serialized_end=897,
+  serialized_start=686,
+  serialized_end=852,
 )
 
 
@@ -665,8 +634,8 @@ _REGISTERREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=899,
-  serialized_end=955,
+  serialized_start=854,
+  serialized_end=910,
 )
 
 _PATIENT.fields_by_name['identity'].message_type = _PERSON
@@ -681,7 +650,6 @@ _MEDICALEXAM.fields_by_name['patient'].message_type = _PATIENT
 _MEDICALEXAM.fields_by_name['doctor'].message_type = _DOCTOR
 _MEDICALEXAM.fields_by_name['lab'].message_type = _LAB
 _MEDICALEXAM.fields_by_name['results'].message_type = _MEDICALEXAM_RESULTSENTRY
-_MEDICALEXAMS.fields_by_name['exams'].message_type = _MEDICALEXAM
 _ADDEXAMREQUEST_RESULTSENTRY.fields_by_name['value'].message_type = _RESULT
 _ADDEXAMREQUEST_RESULTSENTRY.containing_type = _ADDEXAMREQUEST
 _ADDEXAMREQUEST.fields_by_name['results'].message_type = _ADDEXAMREQUEST_RESULTSENTRY
@@ -695,7 +663,6 @@ DESCRIPTOR.message_types_by_name['Doctors'] = _DOCTORS
 DESCRIPTOR.message_types_by_name['Lab'] = _LAB
 DESCRIPTOR.message_types_by_name['Labs'] = _LABS
 DESCRIPTOR.message_types_by_name['MedicalExam'] = _MEDICALEXAM
-DESCRIPTOR.message_types_by_name['MedicalExams'] = _MEDICALEXAMS
 DESCRIPTOR.message_types_by_name['FilterByRangeRequest'] = _FILTERBYRANGEREQUEST
 DESCRIPTOR.message_types_by_name['Result'] = _RESULT
 DESCRIPTOR.message_types_by_name['AddExamRequest'] = _ADDEXAMREQUEST
@@ -779,13 +746,6 @@ MedicalExam = _reflection.GeneratedProtocolMessageType('MedicalExam', (_message.
 _sym_db.RegisterMessage(MedicalExam)
 _sym_db.RegisterMessage(MedicalExam.ResultsEntry)
 
-MedicalExams = _reflection.GeneratedProtocolMessageType('MedicalExams', (_message.Message,), dict(
-  DESCRIPTOR = _MEDICALEXAMS,
-  __module__ = 'hospital_pb2'
-  # @@protoc_insertion_point(class_scope:MedicalExams)
-  ))
-_sym_db.RegisterMessage(MedicalExams)
-
 FilterByRangeRequest = _reflection.GeneratedProtocolMessageType('FilterByRangeRequest', (_message.Message,), dict(
   DESCRIPTOR = _FILTERBYRANGEREQUEST,
   __module__ = 'hospital_pb2'
@@ -845,10 +805,10 @@ try:
       Args:
         channel: A grpc.Channel.
       """
-      self.RequestAllResults = channel.unary_unary(
+      self.RequestAllResults = channel.unary_stream(
           '/PatientService/RequestAllResults',
           request_serializer=Request.SerializeToString,
-          response_deserializer=MedicalExams.FromString,
+          response_deserializer=MedicalExam.FromString,
           )
 
 
@@ -862,10 +822,10 @@ try:
 
   def add_PatientServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
-        'RequestAllResults': grpc.unary_unary_rpc_method_handler(
+        'RequestAllResults': grpc.unary_stream_rpc_method_handler(
             servicer.RequestAllResults,
             request_deserializer=Request.FromString,
-            response_serializer=MedicalExams.SerializeToString,
+            response_serializer=MedicalExam.SerializeToString,
         ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -891,15 +851,15 @@ try:
           request_serializer=Request.SerializeToString,
           response_deserializer=Patients.FromString,
           )
-      self.RequestMedicalExamsForDoctor = channel.unary_unary(
+      self.RequestMedicalExamsForDoctor = channel.unary_stream(
           '/DoctorService/RequestMedicalExamsForDoctor',
           request_serializer=Request.SerializeToString,
-          response_deserializer=MedicalExams.FromString,
+          response_deserializer=MedicalExam.FromString,
           )
-      self.RequestResultsInRange = channel.unary_unary(
+      self.RequestResultsInRange = channel.unary_stream(
           '/DoctorService/RequestResultsInRange',
           request_serializer=FilterByRangeRequest.SerializeToString,
-          response_deserializer=MedicalExams.FromString,
+          response_deserializer=MedicalExam.FromString,
           )
 
 
@@ -938,15 +898,15 @@ try:
             request_deserializer=Request.FromString,
             response_serializer=Patients.SerializeToString,
         ),
-        'RequestMedicalExamsForDoctor': grpc.unary_unary_rpc_method_handler(
+        'RequestMedicalExamsForDoctor': grpc.unary_stream_rpc_method_handler(
             servicer.RequestMedicalExamsForDoctor,
             request_deserializer=Request.FromString,
-            response_serializer=MedicalExams.SerializeToString,
+            response_serializer=MedicalExam.SerializeToString,
         ),
-        'RequestResultsInRange': grpc.unary_unary_rpc_method_handler(
+        'RequestResultsInRange': grpc.unary_stream_rpc_method_handler(
             servicer.RequestResultsInRange,
             request_deserializer=FilterByRangeRequest.FromString,
-            response_serializer=MedicalExams.SerializeToString,
+            response_serializer=MedicalExam.SerializeToString,
         ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -967,10 +927,10 @@ try:
           request_serializer=AddExamRequest.SerializeToString,
           response_deserializer=Response.FromString,
           )
-      self.RequestAllResultsForLab = channel.unary_unary(
+      self.RequestAllResultsForLab = channel.unary_stream(
           '/LabService/RequestAllResultsForLab',
           request_serializer=Request.SerializeToString,
-          response_deserializer=MedicalExams.FromString,
+          response_deserializer=MedicalExam.FromString,
           )
 
 
@@ -994,10 +954,10 @@ try:
             request_deserializer=AddExamRequest.FromString,
             response_serializer=Response.SerializeToString,
         ),
-        'RequestAllResultsForLab': grpc.unary_unary_rpc_method_handler(
+        'RequestAllResultsForLab': grpc.unary_stream_rpc_method_handler(
             servicer.RequestAllResultsForLab,
             request_deserializer=Request.FromString,
-            response_serializer=MedicalExams.SerializeToString,
+            response_serializer=MedicalExam.SerializeToString,
         ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -1104,7 +1064,6 @@ try:
     only to ease transition from grpcio<0.15.0 to grpcio>=0.15.0."""
     def RequestAllResults(self, request, timeout, metadata=None, with_call=False, protocol_options=None):
       raise NotImplementedError()
-    RequestAllResults.future = None
 
 
   def beta_create_PatientService_server(servicer, pool=None, pool_size=None, default_timeout=None, maximum_timeout=None):
@@ -1117,10 +1076,10 @@ try:
       ('PatientService', 'RequestAllResults'): Request.FromString,
     }
     response_serializers = {
-      ('PatientService', 'RequestAllResults'): MedicalExams.SerializeToString,
+      ('PatientService', 'RequestAllResults'): MedicalExam.SerializeToString,
     }
     method_implementations = {
-      ('PatientService', 'RequestAllResults'): face_utilities.unary_unary_inline(servicer.RequestAllResults),
+      ('PatientService', 'RequestAllResults'): face_utilities.unary_stream_inline(servicer.RequestAllResults),
     }
     server_options = beta_implementations.server_options(request_deserializers=request_deserializers, response_serializers=response_serializers, thread_pool=pool, thread_pool_size=pool_size, default_timeout=default_timeout, maximum_timeout=maximum_timeout)
     return beta_implementations.server(method_implementations, options=server_options)
@@ -1136,10 +1095,10 @@ try:
       ('PatientService', 'RequestAllResults'): Request.SerializeToString,
     }
     response_deserializers = {
-      ('PatientService', 'RequestAllResults'): MedicalExams.FromString,
+      ('PatientService', 'RequestAllResults'): MedicalExam.FromString,
     }
     cardinalities = {
-      'RequestAllResults': cardinality.Cardinality.UNARY_UNARY,
+      'RequestAllResults': cardinality.Cardinality.UNARY_STREAM,
     }
     stub_options = beta_implementations.stub_options(host=host, metadata_transformer=metadata_transformer, request_serializers=request_serializers, response_deserializers=response_deserializers, thread_pool=pool, thread_pool_size=pool_size)
     return beta_implementations.dynamic_stub(channel, 'PatientService', cardinalities, options=stub_options)
@@ -1175,10 +1134,8 @@ try:
     RequestPatientsForDoctor.future = None
     def RequestMedicalExamsForDoctor(self, request, timeout, metadata=None, with_call=False, protocol_options=None):
       raise NotImplementedError()
-    RequestMedicalExamsForDoctor.future = None
     def RequestResultsInRange(self, request, timeout, metadata=None, with_call=False, protocol_options=None):
       raise NotImplementedError()
-    RequestResultsInRange.future = None
 
 
   def beta_create_DoctorService_server(servicer, pool=None, pool_size=None, default_timeout=None, maximum_timeout=None):
@@ -1195,15 +1152,15 @@ try:
     }
     response_serializers = {
       ('DoctorService', 'RequestAllPatients'): Patients.SerializeToString,
-      ('DoctorService', 'RequestMedicalExamsForDoctor'): MedicalExams.SerializeToString,
+      ('DoctorService', 'RequestMedicalExamsForDoctor'): MedicalExam.SerializeToString,
       ('DoctorService', 'RequestPatientsForDoctor'): Patients.SerializeToString,
-      ('DoctorService', 'RequestResultsInRange'): MedicalExams.SerializeToString,
+      ('DoctorService', 'RequestResultsInRange'): MedicalExam.SerializeToString,
     }
     method_implementations = {
       ('DoctorService', 'RequestAllPatients'): face_utilities.unary_unary_inline(servicer.RequestAllPatients),
-      ('DoctorService', 'RequestMedicalExamsForDoctor'): face_utilities.unary_unary_inline(servicer.RequestMedicalExamsForDoctor),
+      ('DoctorService', 'RequestMedicalExamsForDoctor'): face_utilities.unary_stream_inline(servicer.RequestMedicalExamsForDoctor),
       ('DoctorService', 'RequestPatientsForDoctor'): face_utilities.unary_unary_inline(servicer.RequestPatientsForDoctor),
-      ('DoctorService', 'RequestResultsInRange'): face_utilities.unary_unary_inline(servicer.RequestResultsInRange),
+      ('DoctorService', 'RequestResultsInRange'): face_utilities.unary_stream_inline(servicer.RequestResultsInRange),
     }
     server_options = beta_implementations.server_options(request_deserializers=request_deserializers, response_serializers=response_serializers, thread_pool=pool, thread_pool_size=pool_size, default_timeout=default_timeout, maximum_timeout=maximum_timeout)
     return beta_implementations.server(method_implementations, options=server_options)
@@ -1223,15 +1180,15 @@ try:
     }
     response_deserializers = {
       ('DoctorService', 'RequestAllPatients'): Patients.FromString,
-      ('DoctorService', 'RequestMedicalExamsForDoctor'): MedicalExams.FromString,
+      ('DoctorService', 'RequestMedicalExamsForDoctor'): MedicalExam.FromString,
       ('DoctorService', 'RequestPatientsForDoctor'): Patients.FromString,
-      ('DoctorService', 'RequestResultsInRange'): MedicalExams.FromString,
+      ('DoctorService', 'RequestResultsInRange'): MedicalExam.FromString,
     }
     cardinalities = {
       'RequestAllPatients': cardinality.Cardinality.UNARY_UNARY,
-      'RequestMedicalExamsForDoctor': cardinality.Cardinality.UNARY_UNARY,
+      'RequestMedicalExamsForDoctor': cardinality.Cardinality.UNARY_STREAM,
       'RequestPatientsForDoctor': cardinality.Cardinality.UNARY_UNARY,
-      'RequestResultsInRange': cardinality.Cardinality.UNARY_UNARY,
+      'RequestResultsInRange': cardinality.Cardinality.UNARY_STREAM,
     }
     stub_options = beta_implementations.stub_options(host=host, metadata_transformer=metadata_transformer, request_serializers=request_serializers, response_deserializers=response_deserializers, thread_pool=pool, thread_pool_size=pool_size)
     return beta_implementations.dynamic_stub(channel, 'DoctorService', cardinalities, options=stub_options)
@@ -1260,7 +1217,6 @@ try:
     AddResults.future = None
     def RequestAllResultsForLab(self, request, timeout, metadata=None, with_call=False, protocol_options=None):
       raise NotImplementedError()
-    RequestAllResultsForLab.future = None
 
 
   def beta_create_LabService_server(servicer, pool=None, pool_size=None, default_timeout=None, maximum_timeout=None):
@@ -1275,11 +1231,11 @@ try:
     }
     response_serializers = {
       ('LabService', 'AddResults'): Response.SerializeToString,
-      ('LabService', 'RequestAllResultsForLab'): MedicalExams.SerializeToString,
+      ('LabService', 'RequestAllResultsForLab'): MedicalExam.SerializeToString,
     }
     method_implementations = {
       ('LabService', 'AddResults'): face_utilities.unary_unary_inline(servicer.AddResults),
-      ('LabService', 'RequestAllResultsForLab'): face_utilities.unary_unary_inline(servicer.RequestAllResultsForLab),
+      ('LabService', 'RequestAllResultsForLab'): face_utilities.unary_stream_inline(servicer.RequestAllResultsForLab),
     }
     server_options = beta_implementations.server_options(request_deserializers=request_deserializers, response_serializers=response_serializers, thread_pool=pool, thread_pool_size=pool_size, default_timeout=default_timeout, maximum_timeout=maximum_timeout)
     return beta_implementations.server(method_implementations, options=server_options)
@@ -1297,11 +1253,11 @@ try:
     }
     response_deserializers = {
       ('LabService', 'AddResults'): Response.FromString,
-      ('LabService', 'RequestAllResultsForLab'): MedicalExams.FromString,
+      ('LabService', 'RequestAllResultsForLab'): MedicalExam.FromString,
     }
     cardinalities = {
       'AddResults': cardinality.Cardinality.UNARY_UNARY,
-      'RequestAllResultsForLab': cardinality.Cardinality.UNARY_UNARY,
+      'RequestAllResultsForLab': cardinality.Cardinality.UNARY_STREAM,
     }
     stub_options = beta_implementations.stub_options(host=host, metadata_transformer=metadata_transformer, request_serializers=request_serializers, response_deserializers=response_deserializers, thread_pool=pool, thread_pool_size=pool_size)
     return beta_implementations.dynamic_stub(channel, 'LabService', cardinalities, options=stub_options)

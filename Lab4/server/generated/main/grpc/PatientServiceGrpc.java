@@ -27,13 +27,13 @@ public final class PatientServiceGrpc {
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<Hospital.Request,
-      Hospital.MedicalExams> METHOD_REQUEST_ALL_RESULTS =
+      Hospital.MedicalExam> METHOD_REQUEST_ALL_RESULTS =
       io.grpc.MethodDescriptor.create(
-          io.grpc.MethodDescriptor.MethodType.UNARY,
+          io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
               "PatientService", "RequestAllResults"),
           io.grpc.protobuf.ProtoUtils.marshaller(Hospital.Request.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(Hospital.MedicalExams.getDefaultInstance()));
+          io.grpc.protobuf.ProtoUtils.marshaller(Hospital.MedicalExam.getDefaultInstance()));
 
   /**
    * Creates a new async stub that supports all call types for the service
@@ -65,7 +65,7 @@ public final class PatientServiceGrpc {
     /**
      */
     public void requestAllResults(Hospital.Request request,
-        io.grpc.stub.StreamObserver<Hospital.MedicalExams> responseObserver) {
+        io.grpc.stub.StreamObserver<Hospital.MedicalExam> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_REQUEST_ALL_RESULTS, responseObserver);
     }
 
@@ -73,10 +73,10 @@ public final class PatientServiceGrpc {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
             METHOD_REQUEST_ALL_RESULTS,
-            asyncUnaryCall(
+            asyncServerStreamingCall(
               new MethodHandlers<
                 Hospital.Request,
-                Hospital.MedicalExams>(
+                Hospital.MedicalExam>(
                   this, METHODID_REQUEST_ALL_RESULTS)))
           .build();
     }
@@ -103,8 +103,8 @@ public final class PatientServiceGrpc {
     /**
      */
     public void requestAllResults(Hospital.Request request,
-        io.grpc.stub.StreamObserver<Hospital.MedicalExams> responseObserver) {
-      asyncUnaryCall(
+        io.grpc.stub.StreamObserver<Hospital.MedicalExam> responseObserver) {
+      asyncServerStreamingCall(
           getChannel().newCall(METHOD_REQUEST_ALL_RESULTS, getCallOptions()), request, responseObserver);
     }
   }
@@ -129,8 +129,9 @@ public final class PatientServiceGrpc {
 
     /**
      */
-    public Hospital.MedicalExams requestAllResults(Hospital.Request request) {
-      return blockingUnaryCall(
+    public java.util.Iterator<Hospital.MedicalExam> requestAllResults(
+        Hospital.Request request) {
+      return blockingServerStreamingCall(
           getChannel(), METHOD_REQUEST_ALL_RESULTS, getCallOptions(), request);
     }
   }
@@ -151,14 +152,6 @@ public final class PatientServiceGrpc {
     protected PatientServiceFutureStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       return new PatientServiceFutureStub(channel, callOptions);
-    }
-
-    /**
-     */
-    public com.google.common.util.concurrent.ListenableFuture<Hospital.MedicalExams> requestAllResults(
-        Hospital.Request request) {
-      return futureUnaryCall(
-          getChannel().newCall(METHOD_REQUEST_ALL_RESULTS, getCallOptions()), request);
     }
   }
 
@@ -183,7 +176,7 @@ public final class PatientServiceGrpc {
       switch (methodId) {
         case METHODID_REQUEST_ALL_RESULTS:
           serviceImpl.requestAllResults((Hospital.Request) request,
-              (io.grpc.stub.StreamObserver<Hospital.MedicalExams>) responseObserver);
+              (io.grpc.stub.StreamObserver<Hospital.MedicalExam>) responseObserver);
           break;
         default:
           throw new AssertionError();

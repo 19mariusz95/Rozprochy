@@ -46,10 +46,6 @@ message MedicalExam {
   map<string, Result> results = 6;
 }
 
-message MedicalExams {
-  repeated MedicalExam exams = 1;
-}
-
 message FilterByRangeRequest {
   int64 id = 1;
   string name = 2;
@@ -75,19 +71,19 @@ message RegisterRequest {
 }
 
 service PatientService {
-  rpc RequestAllResults (Request) returns (MedicalExams) {};
+  rpc RequestAllResults (Request) returns (stream MedicalExam) {};
 }
 
 service DoctorService {
   rpc RequestAllPatients (Request) returns (Patients) {};
   rpc RequestPatientsForDoctor (Request) returns (Patients) {};
-  rpc RequestMedicalExamsForDoctor (Request) returns (MedicalExams) {};
-  rpc RequestResultsInRange (FilterByRangeRequest) returns (MedicalExams) {};
+  rpc RequestMedicalExamsForDoctor (Request) returns (stream MedicalExam) {};
+  rpc RequestResultsInRange (FilterByRangeRequest) returns (stream MedicalExam) {};
 }
 
 service LabService {
   rpc AddResults (AddExamRequest) returns (Response) {};
-  rpc RequestAllResultsForLab (Request) returns (MedicalExams) {};
+  rpc RequestAllResultsForLab (Request) returns (stream MedicalExam) {};
 }
 
 service PublicService {

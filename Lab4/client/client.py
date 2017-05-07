@@ -32,11 +32,14 @@ while True:
             print response
         elif line == 'patient results\n':
             response = patientStub.RequestAllResults(req)
-            print response
+            for k in response:
+                print k
         elif line == 'data\n':
             print publicStub.RequestPersonalData(req)
         elif line == 'lab results\n':
-            print labSub.RequestAllResultsForLab(req)
+            response = labSub.RequestAllResultsForLab(req)
+            for r in response:
+                print r
         elif line == 'add result\n':
             doc = int(raw_input("Doctor id: "))
             pat = int(raw_input("Patient id: "))
@@ -58,13 +61,17 @@ while True:
         elif line == 'doctorPatients\n':
             print doctorStub.RequestPatientsForDoctor(req)
         elif line == 'doctorExams\n':
-            print doctorStub.RequestMedicalExamsForDoctor(req)
+            response = doctorStub.RequestMedicalExamsForDoctor(req)
+            for r in response:
+                print r
         elif line == 'resultsInRange\n':
             name = raw_input("name: ")
             min = int(raw_input("min: "))
             max = int(raw_input("max: "))
             rangeReq = hospital_pb2.FilterByRangeRequest(name=name, minValue=min, maxValue=max)
-            print doctorStub.RequestResultsInRange(rangeReq)
+            response = doctorStub.RequestResultsInRange(rangeReq)
+            for r in response:
+                print r
     except grpc._channel._Rendezvous as e:
         print e._state.code
     except Exception as e:

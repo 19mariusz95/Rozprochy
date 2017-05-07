@@ -31,10 +31,10 @@ public class LabServiceImplBaseImpl extends LabServiceGrpc.LabServiceImplBase {
     }
 
     @Override
-    public void requestAllResultsForLab(Hospital.Request request, StreamObserver<Hospital.MedicalExams> responseObserver) {
+    public void requestAllResultsForLab(Hospital.Request request, StreamObserver<Hospital.MedicalExam> responseObserver) {
         checkPerms(request.getId());
-        List<Hospital.MedicalExam> medicalExams = Server.exams.stream().filter(e -> e.getLab().getIdentity().getId() == request.getId()).collect(Collectors.toList());
-        responseObserver.onNext(Hospital.MedicalExams.newBuilder().addAllExams(medicalExams).build());
+        Server.exams.stream().filter(e -> e.getLab().getIdentity().getId() == request.getId())
+                .forEach(responseObserver::onNext);
         responseObserver.onCompleted();
     }
 

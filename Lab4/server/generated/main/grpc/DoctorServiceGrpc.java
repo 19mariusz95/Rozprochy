@@ -45,22 +45,22 @@ public final class DoctorServiceGrpc {
           io.grpc.protobuf.ProtoUtils.marshaller(Hospital.Patients.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<Hospital.Request,
-      Hospital.MedicalExams> METHOD_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR =
+      Hospital.MedicalExam> METHOD_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR =
       io.grpc.MethodDescriptor.create(
-          io.grpc.MethodDescriptor.MethodType.UNARY,
+          io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
               "DoctorService", "RequestMedicalExamsForDoctor"),
           io.grpc.protobuf.ProtoUtils.marshaller(Hospital.Request.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(Hospital.MedicalExams.getDefaultInstance()));
+          io.grpc.protobuf.ProtoUtils.marshaller(Hospital.MedicalExam.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<Hospital.FilterByRangeRequest,
-      Hospital.MedicalExams> METHOD_REQUEST_RESULTS_IN_RANGE =
+      Hospital.MedicalExam> METHOD_REQUEST_RESULTS_IN_RANGE =
       io.grpc.MethodDescriptor.create(
-          io.grpc.MethodDescriptor.MethodType.UNARY,
+          io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
               "DoctorService", "RequestResultsInRange"),
           io.grpc.protobuf.ProtoUtils.marshaller(Hospital.FilterByRangeRequest.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(Hospital.MedicalExams.getDefaultInstance()));
+          io.grpc.protobuf.ProtoUtils.marshaller(Hospital.MedicalExam.getDefaultInstance()));
 
   /**
    * Creates a new async stub that supports all call types for the service
@@ -106,14 +106,14 @@ public final class DoctorServiceGrpc {
     /**
      */
     public void requestMedicalExamsForDoctor(Hospital.Request request,
-        io.grpc.stub.StreamObserver<Hospital.MedicalExams> responseObserver) {
+        io.grpc.stub.StreamObserver<Hospital.MedicalExam> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR, responseObserver);
     }
 
     /**
      */
     public void requestResultsInRange(Hospital.FilterByRangeRequest request,
-        io.grpc.stub.StreamObserver<Hospital.MedicalExams> responseObserver) {
+        io.grpc.stub.StreamObserver<Hospital.MedicalExam> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_REQUEST_RESULTS_IN_RANGE, responseObserver);
     }
 
@@ -135,17 +135,17 @@ public final class DoctorServiceGrpc {
                   this, METHODID_REQUEST_PATIENTS_FOR_DOCTOR)))
           .addMethod(
             METHOD_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR,
-            asyncUnaryCall(
+            asyncServerStreamingCall(
               new MethodHandlers<
                 Hospital.Request,
-                Hospital.MedicalExams>(
+                Hospital.MedicalExam>(
                   this, METHODID_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR)))
           .addMethod(
             METHOD_REQUEST_RESULTS_IN_RANGE,
-            asyncUnaryCall(
+            asyncServerStreamingCall(
               new MethodHandlers<
                 Hospital.FilterByRangeRequest,
-                Hospital.MedicalExams>(
+                Hospital.MedicalExam>(
                   this, METHODID_REQUEST_RESULTS_IN_RANGE)))
           .build();
     }
@@ -188,16 +188,16 @@ public final class DoctorServiceGrpc {
     /**
      */
     public void requestMedicalExamsForDoctor(Hospital.Request request,
-        io.grpc.stub.StreamObserver<Hospital.MedicalExams> responseObserver) {
-      asyncUnaryCall(
+        io.grpc.stub.StreamObserver<Hospital.MedicalExam> responseObserver) {
+      asyncServerStreamingCall(
           getChannel().newCall(METHOD_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR, getCallOptions()), request, responseObserver);
     }
 
     /**
      */
     public void requestResultsInRange(Hospital.FilterByRangeRequest request,
-        io.grpc.stub.StreamObserver<Hospital.MedicalExams> responseObserver) {
-      asyncUnaryCall(
+        io.grpc.stub.StreamObserver<Hospital.MedicalExam> responseObserver) {
+      asyncServerStreamingCall(
           getChannel().newCall(METHOD_REQUEST_RESULTS_IN_RANGE, getCallOptions()), request, responseObserver);
     }
   }
@@ -236,15 +236,17 @@ public final class DoctorServiceGrpc {
 
     /**
      */
-    public Hospital.MedicalExams requestMedicalExamsForDoctor(Hospital.Request request) {
-      return blockingUnaryCall(
+    public java.util.Iterator<Hospital.MedicalExam> requestMedicalExamsForDoctor(
+        Hospital.Request request) {
+      return blockingServerStreamingCall(
           getChannel(), METHOD_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR, getCallOptions(), request);
     }
 
     /**
      */
-    public Hospital.MedicalExams requestResultsInRange(Hospital.FilterByRangeRequest request) {
-      return blockingUnaryCall(
+    public java.util.Iterator<Hospital.MedicalExam> requestResultsInRange(
+        Hospital.FilterByRangeRequest request) {
+      return blockingServerStreamingCall(
           getChannel(), METHOD_REQUEST_RESULTS_IN_RANGE, getCallOptions(), request);
     }
   }
@@ -282,22 +284,6 @@ public final class DoctorServiceGrpc {
       return futureUnaryCall(
           getChannel().newCall(METHOD_REQUEST_PATIENTS_FOR_DOCTOR, getCallOptions()), request);
     }
-
-    /**
-     */
-    public com.google.common.util.concurrent.ListenableFuture<Hospital.MedicalExams> requestMedicalExamsForDoctor(
-        Hospital.Request request) {
-      return futureUnaryCall(
-          getChannel().newCall(METHOD_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR, getCallOptions()), request);
-    }
-
-    /**
-     */
-    public com.google.common.util.concurrent.ListenableFuture<Hospital.MedicalExams> requestResultsInRange(
-        Hospital.FilterByRangeRequest request) {
-      return futureUnaryCall(
-          getChannel().newCall(METHOD_REQUEST_RESULTS_IN_RANGE, getCallOptions()), request);
-    }
   }
 
   private static final int METHODID_REQUEST_ALL_PATIENTS = 0;
@@ -332,11 +318,11 @@ public final class DoctorServiceGrpc {
           break;
         case METHODID_REQUEST_MEDICAL_EXAMS_FOR_DOCTOR:
           serviceImpl.requestMedicalExamsForDoctor((Hospital.Request) request,
-              (io.grpc.stub.StreamObserver<Hospital.MedicalExams>) responseObserver);
+              (io.grpc.stub.StreamObserver<Hospital.MedicalExam>) responseObserver);
           break;
         case METHODID_REQUEST_RESULTS_IN_RANGE:
           serviceImpl.requestResultsInRange((Hospital.FilterByRangeRequest) request,
-              (io.grpc.stub.StreamObserver<Hospital.MedicalExams>) responseObserver);
+              (io.grpc.stub.StreamObserver<Hospital.MedicalExam>) responseObserver);
           break;
         default:
           throw new AssertionError();

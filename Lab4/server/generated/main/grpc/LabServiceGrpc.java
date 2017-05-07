@@ -36,13 +36,13 @@ public final class LabServiceGrpc {
           io.grpc.protobuf.ProtoUtils.marshaller(Hospital.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
   public static final io.grpc.MethodDescriptor<Hospital.Request,
-      Hospital.MedicalExams> METHOD_REQUEST_ALL_RESULTS_FOR_LAB =
+      Hospital.MedicalExam> METHOD_REQUEST_ALL_RESULTS_FOR_LAB =
       io.grpc.MethodDescriptor.create(
-          io.grpc.MethodDescriptor.MethodType.UNARY,
+          io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
               "LabService", "RequestAllResultsForLab"),
           io.grpc.protobuf.ProtoUtils.marshaller(Hospital.Request.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(Hospital.MedicalExams.getDefaultInstance()));
+          io.grpc.protobuf.ProtoUtils.marshaller(Hospital.MedicalExam.getDefaultInstance()));
 
   /**
    * Creates a new async stub that supports all call types for the service
@@ -81,7 +81,7 @@ public final class LabServiceGrpc {
     /**
      */
     public void requestAllResultsForLab(Hospital.Request request,
-        io.grpc.stub.StreamObserver<Hospital.MedicalExams> responseObserver) {
+        io.grpc.stub.StreamObserver<Hospital.MedicalExam> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_REQUEST_ALL_RESULTS_FOR_LAB, responseObserver);
     }
 
@@ -96,10 +96,10 @@ public final class LabServiceGrpc {
                   this, METHODID_ADD_RESULTS)))
           .addMethod(
             METHOD_REQUEST_ALL_RESULTS_FOR_LAB,
-            asyncUnaryCall(
+            asyncServerStreamingCall(
               new MethodHandlers<
                 Hospital.Request,
-                Hospital.MedicalExams>(
+                Hospital.MedicalExam>(
                   this, METHODID_REQUEST_ALL_RESULTS_FOR_LAB)))
           .build();
     }
@@ -134,8 +134,8 @@ public final class LabServiceGrpc {
     /**
      */
     public void requestAllResultsForLab(Hospital.Request request,
-        io.grpc.stub.StreamObserver<Hospital.MedicalExams> responseObserver) {
-      asyncUnaryCall(
+        io.grpc.stub.StreamObserver<Hospital.MedicalExam> responseObserver) {
+      asyncServerStreamingCall(
           getChannel().newCall(METHOD_REQUEST_ALL_RESULTS_FOR_LAB, getCallOptions()), request, responseObserver);
     }
   }
@@ -167,8 +167,9 @@ public final class LabServiceGrpc {
 
     /**
      */
-    public Hospital.MedicalExams requestAllResultsForLab(Hospital.Request request) {
-      return blockingUnaryCall(
+    public java.util.Iterator<Hospital.MedicalExam> requestAllResultsForLab(
+        Hospital.Request request) {
+      return blockingServerStreamingCall(
           getChannel(), METHOD_REQUEST_ALL_RESULTS_FOR_LAB, getCallOptions(), request);
     }
   }
@@ -198,14 +199,6 @@ public final class LabServiceGrpc {
       return futureUnaryCall(
           getChannel().newCall(METHOD_ADD_RESULTS, getCallOptions()), request);
     }
-
-    /**
-     */
-    public com.google.common.util.concurrent.ListenableFuture<Hospital.MedicalExams> requestAllResultsForLab(
-        Hospital.Request request) {
-      return futureUnaryCall(
-          getChannel().newCall(METHOD_REQUEST_ALL_RESULTS_FOR_LAB, getCallOptions()), request);
-    }
   }
 
   private static final int METHODID_ADD_RESULTS = 0;
@@ -234,7 +227,7 @@ public final class LabServiceGrpc {
           break;
         case METHODID_REQUEST_ALL_RESULTS_FOR_LAB:
           serviceImpl.requestAllResultsForLab((Hospital.Request) request,
-              (io.grpc.stub.StreamObserver<Hospital.MedicalExams>) responseObserver);
+              (io.grpc.stub.StreamObserver<Hospital.MedicalExam>) responseObserver);
           break;
         default:
           throw new AssertionError();

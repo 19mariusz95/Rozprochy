@@ -12,10 +12,10 @@ class PatientServiceStub(object):
     Args:
       channel: A grpc.Channel.
     """
-    self.RequestAllResults = channel.unary_unary(
+    self.RequestAllResults = channel.unary_stream(
         '/PatientService/RequestAllResults',
         request_serializer=hospital__pb2.Request.SerializeToString,
-        response_deserializer=hospital__pb2.MedicalExams.FromString,
+        response_deserializer=hospital__pb2.MedicalExam.FromString,
         )
 
 
@@ -29,10 +29,10 @@ class PatientServiceServicer(object):
 
 def add_PatientServiceServicer_to_server(servicer, server):
   rpc_method_handlers = {
-      'RequestAllResults': grpc.unary_unary_rpc_method_handler(
+      'RequestAllResults': grpc.unary_stream_rpc_method_handler(
           servicer.RequestAllResults,
           request_deserializer=hospital__pb2.Request.FromString,
-          response_serializer=hospital__pb2.MedicalExams.SerializeToString,
+          response_serializer=hospital__pb2.MedicalExam.SerializeToString,
       ),
   }
   generic_handler = grpc.method_handlers_generic_handler(
@@ -58,15 +58,15 @@ class DoctorServiceStub(object):
         request_serializer=hospital__pb2.Request.SerializeToString,
         response_deserializer=hospital__pb2.Patients.FromString,
         )
-    self.RequestMedicalExamsForDoctor = channel.unary_unary(
+    self.RequestMedicalExamsForDoctor = channel.unary_stream(
         '/DoctorService/RequestMedicalExamsForDoctor',
         request_serializer=hospital__pb2.Request.SerializeToString,
-        response_deserializer=hospital__pb2.MedicalExams.FromString,
+        response_deserializer=hospital__pb2.MedicalExam.FromString,
         )
-    self.RequestResultsInRange = channel.unary_unary(
+    self.RequestResultsInRange = channel.unary_stream(
         '/DoctorService/RequestResultsInRange',
         request_serializer=hospital__pb2.FilterByRangeRequest.SerializeToString,
-        response_deserializer=hospital__pb2.MedicalExams.FromString,
+        response_deserializer=hospital__pb2.MedicalExam.FromString,
         )
 
 
@@ -105,15 +105,15 @@ def add_DoctorServiceServicer_to_server(servicer, server):
           request_deserializer=hospital__pb2.Request.FromString,
           response_serializer=hospital__pb2.Patients.SerializeToString,
       ),
-      'RequestMedicalExamsForDoctor': grpc.unary_unary_rpc_method_handler(
+      'RequestMedicalExamsForDoctor': grpc.unary_stream_rpc_method_handler(
           servicer.RequestMedicalExamsForDoctor,
           request_deserializer=hospital__pb2.Request.FromString,
-          response_serializer=hospital__pb2.MedicalExams.SerializeToString,
+          response_serializer=hospital__pb2.MedicalExam.SerializeToString,
       ),
-      'RequestResultsInRange': grpc.unary_unary_rpc_method_handler(
+      'RequestResultsInRange': grpc.unary_stream_rpc_method_handler(
           servicer.RequestResultsInRange,
           request_deserializer=hospital__pb2.FilterByRangeRequest.FromString,
-          response_serializer=hospital__pb2.MedicalExams.SerializeToString,
+          response_serializer=hospital__pb2.MedicalExam.SerializeToString,
       ),
   }
   generic_handler = grpc.method_handlers_generic_handler(
@@ -134,10 +134,10 @@ class LabServiceStub(object):
         request_serializer=hospital__pb2.AddExamRequest.SerializeToString,
         response_deserializer=hospital__pb2.Response.FromString,
         )
-    self.RequestAllResultsForLab = channel.unary_unary(
+    self.RequestAllResultsForLab = channel.unary_stream(
         '/LabService/RequestAllResultsForLab',
         request_serializer=hospital__pb2.Request.SerializeToString,
-        response_deserializer=hospital__pb2.MedicalExams.FromString,
+        response_deserializer=hospital__pb2.MedicalExam.FromString,
         )
 
 
@@ -161,10 +161,10 @@ def add_LabServiceServicer_to_server(servicer, server):
           request_deserializer=hospital__pb2.AddExamRequest.FromString,
           response_serializer=hospital__pb2.Response.SerializeToString,
       ),
-      'RequestAllResultsForLab': grpc.unary_unary_rpc_method_handler(
+      'RequestAllResultsForLab': grpc.unary_stream_rpc_method_handler(
           servicer.RequestAllResultsForLab,
           request_deserializer=hospital__pb2.Request.FromString,
-          response_serializer=hospital__pb2.MedicalExams.SerializeToString,
+          response_serializer=hospital__pb2.MedicalExam.SerializeToString,
       ),
   }
   generic_handler = grpc.method_handlers_generic_handler(
