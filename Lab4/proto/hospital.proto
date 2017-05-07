@@ -1,0 +1,99 @@
+syntax = "proto3";
+
+message Request {
+  int64 id = 1;
+}
+
+message Response {
+  string status = 1;
+}
+
+message Person {
+  int64 id = 1;
+  string first_name = 2;
+  string last_name = 3;
+}
+
+message Patient {
+  Person identity = 1;
+}
+message Patients {
+  repeated Patient patients = 1;
+}
+
+message Doctor {
+  Person identity = 1;
+}
+
+message Doctors {
+  repeated Doctor doctors = 1;
+}
+
+message Lab {
+  Person identity = 1;
+}
+
+message Labs {
+  repeated Lab labs = 1;
+}
+
+message MedicalExam {
+  int64 id = 1;
+  Patient patient = 2;
+  Doctor doctor = 3;
+  Lab lab = 4;
+  string time = 5;
+  map<string, Result> results = 6;
+}
+
+message MedicalExams {
+  repeated MedicalExam exams = 1;
+}
+
+message FilterByRangeRequest {
+  int64 id = 1;
+  string name = 2;
+  double min_value = 3;
+  double max_value = 4;
+}
+
+message Result {
+    double value = 1;
+    string unit = 2;
+}
+
+message AddExamRequest {
+  int64 doctor = 1;
+  int64 patient = 2;
+  int64 lab = 3;
+  map<string, Result> results = 4;
+}
+
+message RegisterRequest {
+  string first_name = 1;
+  string last_name = 2;
+}
+
+service PatientService {
+  rpc RequestAllResults (Request) returns (MedicalExams) {};
+}
+
+service DoctorService {
+  rpc RequestAllPatients (Request) returns (Patients) {};
+  rpc RequestPatientsForDoctor (Request) returns (Patients) {};
+  rpc RequestMedicalExamsForDoctor (Request) returns (MedicalExams) {};
+  rpc RequestResultsInRange (FilterByRangeRequest) returns (MedicalExams) {};
+}
+
+service LabService {
+  rpc AddResults (AddExamRequest) returns (Response) {};
+  rpc RequestAllResultsForLab (Request) returns (MedicalExams) {};
+}
+
+service PublicService {
+  rpc ListDoctors (Request) returns (Doctors) {};
+  rpc ListLabs (Request) returns (Labs) {};
+  rpc RegisterPatient (RegisterRequest) returns (Patient) {};
+  rpc RequestPersonalData (Request) returns (Person) {};
+}
+
