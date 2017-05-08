@@ -23,8 +23,8 @@ public class PublicServiceImplBaseImpl extends PublicServiceGrpc.PublicServiceIm
     @Override
     public void registerPatient(Hospital.RegisterRequest request, StreamObserver<Hospital.Patient> responseObserver) {
         Hospital.Person person = Server.registerPerson(request.getFirstName(), request.getLastName());
-        Hospital.Patient patient = Hospital.Patient.newBuilder().setIdentity(person).build();
-        Server.patients.put(patient.getIdentity().getId(), patient);
+        Hospital.Patient patient = Hospital.Patient.newBuilder().setPerson(person).build();
+        Server.patients.put(patient.getPerson().getId(), patient);
         responseObserver.onNext(patient);
         responseObserver.onCompleted();
     }
@@ -34,11 +34,11 @@ public class PublicServiceImplBaseImpl extends PublicServiceGrpc.PublicServiceIm
         Hospital.Person person = null;
         long id = request.getId();
         if(Server.doctors.containsKey(id)){
-            person = Server.doctors.get(id).getIdentity();
+            person = Server.doctors.get(id).getPerson();
         } else if(Server.labs.containsKey(id)) {
-            person = Server.labs.get(id).getIdentity();
+            person = Server.labs.get(id).getPerson();
         } else if(Server.patients.containsKey(id)) {
-            person = Server.patients.get(id).getIdentity();
+            person = Server.patients.get(id).getPerson();
         }
         if (Objects.isNull(person)) {
             throw new StatusRuntimeException(Status.NOT_FOUND);

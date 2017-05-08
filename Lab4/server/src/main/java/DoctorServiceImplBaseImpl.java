@@ -19,7 +19,7 @@ public class DoctorServiceImplBaseImpl extends DoctorServiceGrpc.DoctorServiceIm
     @Override
     public void requestPatientsForDoctor(Hospital.Request request, StreamObserver<Hospital.Patients> responseObserver) {
         checkPermission(request.getId());
-        List<Hospital.Patient> patients = Server.exams.stream().filter(e -> e.getDoctor().getIdentity().getId() == request.getId()).map(Hospital.MedicalExam::getPatient).collect(Collectors.toList());
+        List<Hospital.Patient> patients = Server.exams.stream().filter(e -> e.getDoctor().getPerson().getId() == request.getId()).map(Hospital.MedicalExam::getPatient).collect(Collectors.toList());
         Hospital.Patients patients1 = Hospital.Patients.newBuilder().addAllPatients(patients).build();
         responseObserver.onNext(patients1);
         responseObserver.onCompleted();
@@ -28,7 +28,7 @@ public class DoctorServiceImplBaseImpl extends DoctorServiceGrpc.DoctorServiceIm
     @Override
     public void requestMedicalExamsForDoctor(Hospital.Request request, StreamObserver<Hospital.MedicalExam> responseObserver) {
         checkPermission(request.getId());
-        Server.exams.stream().filter(e -> e.getDoctor().getIdentity().getId() == request.getId())
+        Server.exams.stream().filter(e -> e.getDoctor().getPerson().getId() == request.getId())
                 .forEach(responseObserver::onNext);
         responseObserver.onCompleted();
     }

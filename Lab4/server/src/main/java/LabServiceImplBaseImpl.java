@@ -1,12 +1,9 @@
-import io.grpc.Metadata;
 import io.grpc.Status;
 import io.grpc.StatusRuntimeException;
 import io.grpc.stub.StreamObserver;
 
 import java.time.LocalDateTime;
-import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 public class LabServiceImplBaseImpl extends LabServiceGrpc.LabServiceImplBase {
 
@@ -24,6 +21,7 @@ public class LabServiceImplBaseImpl extends LabServiceGrpc.LabServiceImplBase {
                 .setLab(lab)
                 .setPatient(patient)
                 .setTime(LocalDateTime.now().toString())
+                .putAllResults(request.getResultsMap())
                 .build();
         Server.exams.add(medicalExam);
         responseObserver.onNext(Hospital.Response.getDefaultInstance());
@@ -33,7 +31,7 @@ public class LabServiceImplBaseImpl extends LabServiceGrpc.LabServiceImplBase {
     @Override
     public void requestAllResultsForLab(Hospital.Request request, StreamObserver<Hospital.MedicalExam> responseObserver) {
         checkPerms(request.getId());
-        Server.exams.stream().filter(e -> e.getLab().getIdentity().getId() == request.getId())
+        Server.exams.stream().filter(e -> e.getLab().getPerson().getId() == request.getId())
                 .forEach(responseObserver::onNext);
         responseObserver.onCompleted();
     }

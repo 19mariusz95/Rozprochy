@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='hospital.proto',
   package='',
   syntax='proto3',
-  serialized_pb=_b('\n\x0ehospital.proto\"\x15\n\x07Request\x12\n\n\x02id\x18\x01 \x01(\x03\"\x1a\n\x08Response\x12\x0e\n\x06status\x18\x01 \x01(\t\";\n\x06Person\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x12\n\nfirst_name\x18\x02 \x01(\t\x12\x11\n\tlast_name\x18\x03 \x01(\t\"$\n\x07Patient\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"&\n\x08Patients\x12\x1a\n\x08patients\x18\x01 \x03(\x0b\x32\x08.Patient\"#\n\x06\x44octor\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"#\n\x07\x44octors\x12\x18\n\x07\x64octors\x18\x01 \x03(\x0b\x32\x07.Doctor\" \n\x03Lab\x12\x19\n\x08identity\x18\x01 \x01(\x0b\x32\x07.Person\"\x1a\n\x04Labs\x12\x12\n\x04labs\x18\x01 \x03(\x0b\x32\x04.Lab\"\xd3\x01\n\x0bMedicalExam\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x19\n\x07patient\x18\x02 \x01(\x0b\x32\x08.Patient\x12\x17\n\x06\x64octor\x18\x03 \x01(\x0b\x32\x07.Doctor\x12\x11\n\x03lab\x18\x04 \x01(\x0b\x32\x04.Lab\x12\x0c\n\x04time\x18\x05 \x01(\t\x12*\n\x07results\x18\x06 \x03(\x0b\x32\x19.MedicalExam.ResultsEntry\x1a\x37\n\x0cResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x16\n\x05value\x18\x02 \x01(\x0b\x32\x07.Result:\x02\x38\x01\"V\n\x14\x46ilterByRangeRequest\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tmin_value\x18\x03 \x01(\x01\x12\x11\n\tmax_value\x18\x04 \x01(\x01\"%\n\x06Result\x12\r\n\x05value\x18\x01 \x01(\x01\x12\x0c\n\x04unit\x18\x02 \x01(\t\"\xa6\x01\n\x0e\x41\x64\x64\x45xamRequest\x12\x0e\n\x06\x64octor\x18\x01 \x01(\x03\x12\x0f\n\x07patient\x18\x02 \x01(\x03\x12\x0b\n\x03lab\x18\x03 \x01(\x03\x12-\n\x07results\x18\x04 \x03(\x0b\x32\x1c.AddExamRequest.ResultsEntry\x1a\x37\n\x0cResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x16\n\x05value\x18\x02 \x01(\x0b\x32\x07.Result:\x02\x38\x01\"8\n\x0fRegisterRequest\x12\x12\n\nfirst_name\x18\x01 \x01(\t\x12\x11\n\tlast_name\x18\x02 \x01(\t2A\n\x0ePatientService\x12/\n\x11RequestAllResults\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x32\xed\x01\n\rDoctorService\x12+\n\x12RequestAllPatients\x12\x08.Request\x1a\t.Patients\"\x00\x12\x31\n\x18RequestPatientsForDoctor\x12\x08.Request\x1a\t.Patients\"\x00\x12:\n\x1cRequestMedicalExamsForDoctor\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x12@\n\x15RequestResultsInRange\x12\x15.FilterByRangeRequest\x1a\x0c.MedicalExam\"\x00\x30\x01\x32o\n\nLabService\x12*\n\nAddResults\x12\x0f.AddExamRequest\x1a\t.Response\"\x00\x12\x35\n\x17RequestAllResultsForLab\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x32\xb0\x01\n\rPublicService\x12#\n\x0bListDoctors\x12\x08.Request\x1a\x08.Doctors\"\x00\x12\x1d\n\x08ListLabs\x12\x08.Request\x1a\x05.Labs\"\x00\x12/\n\x0fRegisterPatient\x12\x10.RegisterRequest\x1a\x08.Patient\"\x00\x12*\n\x13RequestPersonalData\x12\x08.Request\x1a\x07.Person\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x0ehospital.proto\"\x15\n\x07Request\x12\n\n\x02id\x18\x01 \x01(\x03\"\n\n\x08Response\";\n\x06Person\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x12\n\nfirst_name\x18\x02 \x01(\t\x12\x11\n\tlast_name\x18\x03 \x01(\t\"\"\n\x07Patient\x12\x17\n\x06person\x18\x01 \x01(\x0b\x32\x07.Person\"&\n\x08Patients\x12\x1a\n\x08patients\x18\x01 \x03(\x0b\x32\x08.Patient\"!\n\x06\x44octor\x12\x17\n\x06person\x18\x01 \x01(\x0b\x32\x07.Person\"#\n\x07\x44octors\x12\x18\n\x07\x64octors\x18\x01 \x03(\x0b\x32\x07.Doctor\"\x1e\n\x03Lab\x12\x17\n\x06person\x18\x01 \x01(\x0b\x32\x07.Person\"\x1a\n\x04Labs\x12\x12\n\x04labs\x18\x01 \x03(\x0b\x32\x04.Lab\"\xd3\x01\n\x0bMedicalExam\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x19\n\x07patient\x18\x02 \x01(\x0b\x32\x08.Patient\x12\x17\n\x06\x64octor\x18\x03 \x01(\x0b\x32\x07.Doctor\x12\x11\n\x03lab\x18\x04 \x01(\x0b\x32\x04.Lab\x12\x0c\n\x04time\x18\x05 \x01(\t\x12*\n\x07results\x18\x06 \x03(\x0b\x32\x19.MedicalExam.ResultsEntry\x1a\x37\n\x0cResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x16\n\x05value\x18\x02 \x01(\x0b\x32\x07.Result:\x02\x38\x01\"V\n\x14\x46ilterByRangeRequest\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tmin_value\x18\x03 \x01(\x01\x12\x11\n\tmax_value\x18\x04 \x01(\x01\"%\n\x06Result\x12\r\n\x05value\x18\x01 \x01(\x01\x12\x0c\n\x04unit\x18\x02 \x01(\t\"\xa6\x01\n\x0e\x41\x64\x64\x45xamRequest\x12\x0e\n\x06\x64octor\x18\x01 \x01(\x03\x12\x0f\n\x07patient\x18\x02 \x01(\x03\x12\x0b\n\x03lab\x18\x03 \x01(\x03\x12-\n\x07results\x18\x04 \x03(\x0b\x32\x1c.AddExamRequest.ResultsEntry\x1a\x37\n\x0cResultsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x16\n\x05value\x18\x02 \x01(\x0b\x32\x07.Result:\x02\x38\x01\"8\n\x0fRegisterRequest\x12\x12\n\nfirst_name\x18\x01 \x01(\t\x12\x11\n\tlast_name\x18\x02 \x01(\t2A\n\x0ePatientService\x12/\n\x11RequestAllResults\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x32\xed\x01\n\rDoctorService\x12+\n\x12RequestAllPatients\x12\x08.Request\x1a\t.Patients\"\x00\x12\x31\n\x18RequestPatientsForDoctor\x12\x08.Request\x1a\t.Patients\"\x00\x12:\n\x1cRequestMedicalExamsForDoctor\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x12@\n\x15RequestResultsInRange\x12\x15.FilterByRangeRequest\x1a\x0c.MedicalExam\"\x00\x30\x01\x32o\n\nLabService\x12*\n\nAddResults\x12\x0f.AddExamRequest\x1a\t.Response\"\x00\x12\x35\n\x17RequestAllResultsForLab\x12\x08.Request\x1a\x0c.MedicalExam\"\x00\x30\x01\x32\xb0\x01\n\rPublicService\x12#\n\x0bListDoctors\x12\x08.Request\x1a\x08.Doctors\"\x00\x12\x1d\n\x08ListLabs\x12\x08.Request\x1a\x05.Labs\"\x00\x12/\n\x0fRegisterPatient\x12\x10.RegisterRequest\x1a\x08.Patient\"\x00\x12*\n\x13RequestPersonalData\x12\x08.Request\x1a\x07.Person\"\x00\x62\x06proto3')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -64,13 +64,6 @@ _RESPONSE = _descriptor.Descriptor(
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
-    _descriptor.FieldDescriptor(
-      name='status', full_name='Response.status', index=0,
-      number=1, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
   ],
   extensions=[
   ],
@@ -84,7 +77,7 @@ _RESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=41,
-  serialized_end=67,
+  serialized_end=51,
 )
 
 
@@ -128,8 +121,8 @@ _PERSON = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=69,
-  serialized_end=128,
+  serialized_start=53,
+  serialized_end=112,
 )
 
 
@@ -141,7 +134,7 @@ _PATIENT = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='identity', full_name='Patient.identity', index=0,
+      name='person', full_name='Patient.person', index=0,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -159,8 +152,8 @@ _PATIENT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=130,
-  serialized_end=166,
+  serialized_start=114,
+  serialized_end=148,
 )
 
 
@@ -190,8 +183,8 @@ _PATIENTS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=168,
-  serialized_end=206,
+  serialized_start=150,
+  serialized_end=188,
 )
 
 
@@ -203,7 +196,7 @@ _DOCTOR = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='identity', full_name='Doctor.identity', index=0,
+      name='person', full_name='Doctor.person', index=0,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -221,8 +214,8 @@ _DOCTOR = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=208,
-  serialized_end=243,
+  serialized_start=190,
+  serialized_end=223,
 )
 
 
@@ -252,8 +245,8 @@ _DOCTORS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=245,
-  serialized_end=280,
+  serialized_start=225,
+  serialized_end=260,
 )
 
 
@@ -265,7 +258,7 @@ _LAB = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='identity', full_name='Lab.identity', index=0,
+      name='person', full_name='Lab.person', index=0,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -283,8 +276,8 @@ _LAB = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=282,
-  serialized_end=314,
+  serialized_start=262,
+  serialized_end=292,
 )
 
 
@@ -314,8 +307,8 @@ _LABS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=316,
-  serialized_end=342,
+  serialized_start=294,
+  serialized_end=320,
 )
 
 
@@ -352,8 +345,8 @@ _MEDICALEXAM_RESULTSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=501,
-  serialized_end=556,
+  serialized_start=479,
+  serialized_end=534,
 )
 
 _MEDICALEXAM = _descriptor.Descriptor(
@@ -417,8 +410,8 @@ _MEDICALEXAM = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=345,
-  serialized_end=556,
+  serialized_start=323,
+  serialized_end=534,
 )
 
 
@@ -469,8 +462,8 @@ _FILTERBYRANGEREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=558,
-  serialized_end=644,
+  serialized_start=536,
+  serialized_end=622,
 )
 
 
@@ -507,8 +500,8 @@ _RESULT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=646,
-  serialized_end=683,
+  serialized_start=624,
+  serialized_end=661,
 )
 
 
@@ -545,8 +538,8 @@ _ADDEXAMREQUEST_RESULTSENTRY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=501,
-  serialized_end=556,
+  serialized_start=479,
+  serialized_end=534,
 )
 
 _ADDEXAMREQUEST = _descriptor.Descriptor(
@@ -596,8 +589,8 @@ _ADDEXAMREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=686,
-  serialized_end=852,
+  serialized_start=664,
+  serialized_end=830,
 )
 
 
@@ -634,15 +627,15 @@ _REGISTERREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=854,
-  serialized_end=910,
+  serialized_start=832,
+  serialized_end=888,
 )
 
-_PATIENT.fields_by_name['identity'].message_type = _PERSON
+_PATIENT.fields_by_name['person'].message_type = _PERSON
 _PATIENTS.fields_by_name['patients'].message_type = _PATIENT
-_DOCTOR.fields_by_name['identity'].message_type = _PERSON
+_DOCTOR.fields_by_name['person'].message_type = _PERSON
 _DOCTORS.fields_by_name['doctors'].message_type = _DOCTOR
-_LAB.fields_by_name['identity'].message_type = _PERSON
+_LAB.fields_by_name['person'].message_type = _PERSON
 _LABS.fields_by_name['labs'].message_type = _LAB
 _MEDICALEXAM_RESULTSENTRY.fields_by_name['value'].message_type = _RESULT
 _MEDICALEXAM_RESULTSENTRY.containing_type = _MEDICALEXAM

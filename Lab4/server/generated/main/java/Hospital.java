@@ -445,16 +445,6 @@ public final class Hospital {
   public interface ResponseOrBuilder extends
       // @@protoc_insertion_point(interface_extends:Response)
       com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>string status = 1;</code>
-     */
-    java.lang.String getStatus();
-    /**
-     * <code>string status = 1;</code>
-     */
-    com.google.protobuf.ByteString
-        getStatusBytes();
   }
   /**
    * Protobuf type {@code Response}
@@ -468,7 +458,6 @@ public final class Hospital {
       super(builder);
     }
     private Response() {
-      status_ = "";
     }
 
     @java.lang.Override
@@ -481,7 +470,6 @@ public final class Hospital {
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       this();
-      int mutable_bitField0_ = 0;
       try {
         boolean done = false;
         while (!done) {
@@ -494,12 +482,6 @@ public final class Hospital {
               if (!input.skipField(tag)) {
                 done = true;
               }
-              break;
-            }
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              status_ = s;
               break;
             }
           }
@@ -525,40 +507,6 @@ public final class Hospital {
               Hospital.Response.class, Hospital.Response.Builder.class);
     }
 
-    public static final int STATUS_FIELD_NUMBER = 1;
-    private volatile java.lang.Object status_;
-    /**
-     * <code>string status = 1;</code>
-     */
-    public java.lang.String getStatus() {
-      java.lang.Object ref = status_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        status_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string status = 1;</code>
-     */
-    public com.google.protobuf.ByteString
-        getStatusBytes() {
-      java.lang.Object ref = status_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        status_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -571,9 +519,6 @@ public final class Hospital {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (!getStatusBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, status_);
-      }
     }
 
     public int getSerializedSize() {
@@ -581,9 +526,6 @@ public final class Hospital {
       if (size != -1) return size;
 
       size = 0;
-      if (!getStatusBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, status_);
-      }
       memoizedSize = size;
       return size;
     }
@@ -600,8 +542,6 @@ public final class Hospital {
       Hospital.Response other = (Hospital.Response) obj;
 
       boolean result = true;
-      result = result && getStatus()
-          .equals(other.getStatus());
       return result;
     }
 
@@ -612,8 +552,6 @@ public final class Hospital {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + STATUS_FIELD_NUMBER;
-      hash = (53 * hash) + getStatus().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -732,8 +670,6 @@ public final class Hospital {
       }
       public Builder clear() {
         super.clear();
-        status_ = "";
-
         return this;
       }
 
@@ -756,7 +692,6 @@ public final class Hospital {
 
       public Hospital.Response buildPartial() {
         Hospital.Response result = new Hospital.Response(this);
-        result.status_ = status_;
         onBuilt();
         return result;
       }
@@ -798,10 +733,6 @@ public final class Hospital {
 
       public Builder mergeFrom(Hospital.Response other) {
         if (other == Hospital.Response.getDefaultInstance()) return this;
-        if (!other.getStatus().isEmpty()) {
-          status_ = other.status_;
-          onChanged();
-        }
         onChanged();
         return this;
       }
@@ -825,75 +756,6 @@ public final class Hospital {
             mergeFrom(parsedMessage);
           }
         }
-        return this;
-      }
-
-      private java.lang.Object status_ = "";
-      /**
-       * <code>string status = 1;</code>
-       */
-      public java.lang.String getStatus() {
-        java.lang.Object ref = status_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          status_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string status = 1;</code>
-       */
-      public com.google.protobuf.ByteString
-          getStatusBytes() {
-        java.lang.Object ref = status_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          status_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string status = 1;</code>
-       */
-      public Builder setStatus(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        status_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string status = 1;</code>
-       */
-      public Builder clearStatus() {
-        
-        status_ = getDefaultInstance().getStatus();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string status = 1;</code>
-       */
-      public Builder setStatusBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        status_ = value;
-        onChanged();
         return this;
       }
       public final Builder setUnknownFields(
@@ -1654,17 +1516,17 @@ public final class Hospital {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    boolean hasIdentity();
+    boolean hasPerson();
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    Hospital.Person getIdentity();
+    Hospital.Person getPerson();
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    Hospital.PersonOrBuilder getIdentityOrBuilder();
+    Hospital.PersonOrBuilder getPersonOrBuilder();
   }
   /**
    * Protobuf type {@code Patient}
@@ -1707,13 +1569,13 @@ public final class Hospital {
             }
             case 10: {
               Hospital.Person.Builder subBuilder = null;
-              if (identity_ != null) {
-                subBuilder = identity_.toBuilder();
+              if (person_ != null) {
+                subBuilder = person_.toBuilder();
               }
-              identity_ = input.readMessage(Hospital.Person.parser(), extensionRegistry);
+              person_ = input.readMessage(Hospital.Person.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(identity_);
-                identity_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(person_);
+                person_ = subBuilder.buildPartial();
               }
 
               break;
@@ -1741,25 +1603,25 @@ public final class Hospital {
               Hospital.Patient.class, Hospital.Patient.Builder.class);
     }
 
-    public static final int IDENTITY_FIELD_NUMBER = 1;
-    private Hospital.Person identity_;
+    public static final int PERSON_FIELD_NUMBER = 1;
+    private Hospital.Person person_;
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public boolean hasIdentity() {
-      return identity_ != null;
+    public boolean hasPerson() {
+      return person_ != null;
     }
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public Hospital.Person getIdentity() {
-      return identity_ == null ? Hospital.Person.getDefaultInstance() : identity_;
+    public Hospital.Person getPerson() {
+      return person_ == null ? Hospital.Person.getDefaultInstance() : person_;
     }
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public Hospital.PersonOrBuilder getIdentityOrBuilder() {
-      return getIdentity();
+    public Hospital.PersonOrBuilder getPersonOrBuilder() {
+      return getPerson();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1774,8 +1636,8 @@ public final class Hospital {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (identity_ != null) {
-        output.writeMessage(1, getIdentity());
+      if (person_ != null) {
+        output.writeMessage(1, getPerson());
       }
     }
 
@@ -1784,9 +1646,9 @@ public final class Hospital {
       if (size != -1) return size;
 
       size = 0;
-      if (identity_ != null) {
+      if (person_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getIdentity());
+          .computeMessageSize(1, getPerson());
       }
       memoizedSize = size;
       return size;
@@ -1804,10 +1666,10 @@ public final class Hospital {
       Hospital.Patient other = (Hospital.Patient) obj;
 
       boolean result = true;
-      result = result && (hasIdentity() == other.hasIdentity());
-      if (hasIdentity()) {
-        result = result && getIdentity()
-            .equals(other.getIdentity());
+      result = result && (hasPerson() == other.hasPerson());
+      if (hasPerson()) {
+        result = result && getPerson()
+            .equals(other.getPerson());
       }
       return result;
     }
@@ -1819,9 +1681,9 @@ public final class Hospital {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasIdentity()) {
-        hash = (37 * hash) + IDENTITY_FIELD_NUMBER;
-        hash = (53 * hash) + getIdentity().hashCode();
+      if (hasPerson()) {
+        hash = (37 * hash) + PERSON_FIELD_NUMBER;
+        hash = (53 * hash) + getPerson().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -1941,11 +1803,11 @@ public final class Hospital {
       }
       public Builder clear() {
         super.clear();
-        if (identityBuilder_ == null) {
-          identity_ = null;
+        if (personBuilder_ == null) {
+          person_ = null;
         } else {
-          identity_ = null;
-          identityBuilder_ = null;
+          person_ = null;
+          personBuilder_ = null;
         }
         return this;
       }
@@ -1969,10 +1831,10 @@ public final class Hospital {
 
       public Hospital.Patient buildPartial() {
         Hospital.Patient result = new Hospital.Patient(this);
-        if (identityBuilder_ == null) {
-          result.identity_ = identity_;
+        if (personBuilder_ == null) {
+          result.person_ = person_;
         } else {
-          result.identity_ = identityBuilder_.build();
+          result.person_ = personBuilder_.build();
         }
         onBuilt();
         return result;
@@ -2015,8 +1877,8 @@ public final class Hospital {
 
       public Builder mergeFrom(Hospital.Patient other) {
         if (other == Hospital.Patient.getDefaultInstance()) return this;
-        if (other.hasIdentity()) {
-          mergeIdentity(other.getIdentity());
+        if (other.hasPerson()) {
+          mergePerson(other.getPerson());
         }
         onChanged();
         return this;
@@ -2044,121 +1906,121 @@ public final class Hospital {
         return this;
       }
 
-      private Hospital.Person identity_ = null;
+      private Hospital.Person person_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> identityBuilder_;
+          Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> personBuilder_;
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public boolean hasIdentity() {
-        return identityBuilder_ != null || identity_ != null;
+      public boolean hasPerson() {
+        return personBuilder_ != null || person_ != null;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.Person getIdentity() {
-        if (identityBuilder_ == null) {
-          return identity_ == null ? Hospital.Person.getDefaultInstance() : identity_;
+      public Hospital.Person getPerson() {
+        if (personBuilder_ == null) {
+          return person_ == null ? Hospital.Person.getDefaultInstance() : person_;
         } else {
-          return identityBuilder_.getMessage();
+          return personBuilder_.getMessage();
         }
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder setIdentity(Hospital.Person value) {
-        if (identityBuilder_ == null) {
+      public Builder setPerson(Hospital.Person value) {
+        if (personBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          identity_ = value;
+          person_ = value;
           onChanged();
         } else {
-          identityBuilder_.setMessage(value);
+          personBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder setIdentity(
+      public Builder setPerson(
           Hospital.Person.Builder builderForValue) {
-        if (identityBuilder_ == null) {
-          identity_ = builderForValue.build();
+        if (personBuilder_ == null) {
+          person_ = builderForValue.build();
           onChanged();
         } else {
-          identityBuilder_.setMessage(builderForValue.build());
+          personBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder mergeIdentity(Hospital.Person value) {
-        if (identityBuilder_ == null) {
-          if (identity_ != null) {
-            identity_ =
-              Hospital.Person.newBuilder(identity_).mergeFrom(value).buildPartial();
+      public Builder mergePerson(Hospital.Person value) {
+        if (personBuilder_ == null) {
+          if (person_ != null) {
+            person_ =
+              Hospital.Person.newBuilder(person_).mergeFrom(value).buildPartial();
           } else {
-            identity_ = value;
+            person_ = value;
           }
           onChanged();
         } else {
-          identityBuilder_.mergeFrom(value);
+          personBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder clearIdentity() {
-        if (identityBuilder_ == null) {
-          identity_ = null;
+      public Builder clearPerson() {
+        if (personBuilder_ == null) {
+          person_ = null;
           onChanged();
         } else {
-          identity_ = null;
-          identityBuilder_ = null;
+          person_ = null;
+          personBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.Person.Builder getIdentityBuilder() {
+      public Hospital.Person.Builder getPersonBuilder() {
         
         onChanged();
-        return getIdentityFieldBuilder().getBuilder();
+        return getPersonFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.PersonOrBuilder getIdentityOrBuilder() {
-        if (identityBuilder_ != null) {
-          return identityBuilder_.getMessageOrBuilder();
+      public Hospital.PersonOrBuilder getPersonOrBuilder() {
+        if (personBuilder_ != null) {
+          return personBuilder_.getMessageOrBuilder();
         } else {
-          return identity_ == null ?
-              Hospital.Person.getDefaultInstance() : identity_;
+          return person_ == null ?
+              Hospital.Person.getDefaultInstance() : person_;
         }
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> 
-          getIdentityFieldBuilder() {
-        if (identityBuilder_ == null) {
-          identityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getPersonFieldBuilder() {
+        if (personBuilder_ == null) {
+          personBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder>(
-                  getIdentity(),
+                  getPerson(),
                   getParentForChildren(),
                   isClean());
-          identity_ = null;
+          person_ = null;
         }
-        return identityBuilder_;
+        return personBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -2949,17 +2811,17 @@ public final class Hospital {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    boolean hasIdentity();
+    boolean hasPerson();
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    Hospital.Person getIdentity();
+    Hospital.Person getPerson();
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    Hospital.PersonOrBuilder getIdentityOrBuilder();
+    Hospital.PersonOrBuilder getPersonOrBuilder();
   }
   /**
    * Protobuf type {@code Doctor}
@@ -3002,13 +2864,13 @@ public final class Hospital {
             }
             case 10: {
               Hospital.Person.Builder subBuilder = null;
-              if (identity_ != null) {
-                subBuilder = identity_.toBuilder();
+              if (person_ != null) {
+                subBuilder = person_.toBuilder();
               }
-              identity_ = input.readMessage(Hospital.Person.parser(), extensionRegistry);
+              person_ = input.readMessage(Hospital.Person.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(identity_);
-                identity_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(person_);
+                person_ = subBuilder.buildPartial();
               }
 
               break;
@@ -3036,25 +2898,25 @@ public final class Hospital {
               Hospital.Doctor.class, Hospital.Doctor.Builder.class);
     }
 
-    public static final int IDENTITY_FIELD_NUMBER = 1;
-    private Hospital.Person identity_;
+    public static final int PERSON_FIELD_NUMBER = 1;
+    private Hospital.Person person_;
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public boolean hasIdentity() {
-      return identity_ != null;
+    public boolean hasPerson() {
+      return person_ != null;
     }
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public Hospital.Person getIdentity() {
-      return identity_ == null ? Hospital.Person.getDefaultInstance() : identity_;
+    public Hospital.Person getPerson() {
+      return person_ == null ? Hospital.Person.getDefaultInstance() : person_;
     }
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public Hospital.PersonOrBuilder getIdentityOrBuilder() {
-      return getIdentity();
+    public Hospital.PersonOrBuilder getPersonOrBuilder() {
+      return getPerson();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -3069,8 +2931,8 @@ public final class Hospital {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (identity_ != null) {
-        output.writeMessage(1, getIdentity());
+      if (person_ != null) {
+        output.writeMessage(1, getPerson());
       }
     }
 
@@ -3079,9 +2941,9 @@ public final class Hospital {
       if (size != -1) return size;
 
       size = 0;
-      if (identity_ != null) {
+      if (person_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getIdentity());
+          .computeMessageSize(1, getPerson());
       }
       memoizedSize = size;
       return size;
@@ -3099,10 +2961,10 @@ public final class Hospital {
       Hospital.Doctor other = (Hospital.Doctor) obj;
 
       boolean result = true;
-      result = result && (hasIdentity() == other.hasIdentity());
-      if (hasIdentity()) {
-        result = result && getIdentity()
-            .equals(other.getIdentity());
+      result = result && (hasPerson() == other.hasPerson());
+      if (hasPerson()) {
+        result = result && getPerson()
+            .equals(other.getPerson());
       }
       return result;
     }
@@ -3114,9 +2976,9 @@ public final class Hospital {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasIdentity()) {
-        hash = (37 * hash) + IDENTITY_FIELD_NUMBER;
-        hash = (53 * hash) + getIdentity().hashCode();
+      if (hasPerson()) {
+        hash = (37 * hash) + PERSON_FIELD_NUMBER;
+        hash = (53 * hash) + getPerson().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -3236,11 +3098,11 @@ public final class Hospital {
       }
       public Builder clear() {
         super.clear();
-        if (identityBuilder_ == null) {
-          identity_ = null;
+        if (personBuilder_ == null) {
+          person_ = null;
         } else {
-          identity_ = null;
-          identityBuilder_ = null;
+          person_ = null;
+          personBuilder_ = null;
         }
         return this;
       }
@@ -3264,10 +3126,10 @@ public final class Hospital {
 
       public Hospital.Doctor buildPartial() {
         Hospital.Doctor result = new Hospital.Doctor(this);
-        if (identityBuilder_ == null) {
-          result.identity_ = identity_;
+        if (personBuilder_ == null) {
+          result.person_ = person_;
         } else {
-          result.identity_ = identityBuilder_.build();
+          result.person_ = personBuilder_.build();
         }
         onBuilt();
         return result;
@@ -3310,8 +3172,8 @@ public final class Hospital {
 
       public Builder mergeFrom(Hospital.Doctor other) {
         if (other == Hospital.Doctor.getDefaultInstance()) return this;
-        if (other.hasIdentity()) {
-          mergeIdentity(other.getIdentity());
+        if (other.hasPerson()) {
+          mergePerson(other.getPerson());
         }
         onChanged();
         return this;
@@ -3339,121 +3201,121 @@ public final class Hospital {
         return this;
       }
 
-      private Hospital.Person identity_ = null;
+      private Hospital.Person person_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> identityBuilder_;
+          Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> personBuilder_;
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public boolean hasIdentity() {
-        return identityBuilder_ != null || identity_ != null;
+      public boolean hasPerson() {
+        return personBuilder_ != null || person_ != null;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.Person getIdentity() {
-        if (identityBuilder_ == null) {
-          return identity_ == null ? Hospital.Person.getDefaultInstance() : identity_;
+      public Hospital.Person getPerson() {
+        if (personBuilder_ == null) {
+          return person_ == null ? Hospital.Person.getDefaultInstance() : person_;
         } else {
-          return identityBuilder_.getMessage();
+          return personBuilder_.getMessage();
         }
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder setIdentity(Hospital.Person value) {
-        if (identityBuilder_ == null) {
+      public Builder setPerson(Hospital.Person value) {
+        if (personBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          identity_ = value;
+          person_ = value;
           onChanged();
         } else {
-          identityBuilder_.setMessage(value);
+          personBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder setIdentity(
+      public Builder setPerson(
           Hospital.Person.Builder builderForValue) {
-        if (identityBuilder_ == null) {
-          identity_ = builderForValue.build();
+        if (personBuilder_ == null) {
+          person_ = builderForValue.build();
           onChanged();
         } else {
-          identityBuilder_.setMessage(builderForValue.build());
+          personBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder mergeIdentity(Hospital.Person value) {
-        if (identityBuilder_ == null) {
-          if (identity_ != null) {
-            identity_ =
-              Hospital.Person.newBuilder(identity_).mergeFrom(value).buildPartial();
+      public Builder mergePerson(Hospital.Person value) {
+        if (personBuilder_ == null) {
+          if (person_ != null) {
+            person_ =
+              Hospital.Person.newBuilder(person_).mergeFrom(value).buildPartial();
           } else {
-            identity_ = value;
+            person_ = value;
           }
           onChanged();
         } else {
-          identityBuilder_.mergeFrom(value);
+          personBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder clearIdentity() {
-        if (identityBuilder_ == null) {
-          identity_ = null;
+      public Builder clearPerson() {
+        if (personBuilder_ == null) {
+          person_ = null;
           onChanged();
         } else {
-          identity_ = null;
-          identityBuilder_ = null;
+          person_ = null;
+          personBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.Person.Builder getIdentityBuilder() {
+      public Hospital.Person.Builder getPersonBuilder() {
         
         onChanged();
-        return getIdentityFieldBuilder().getBuilder();
+        return getPersonFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.PersonOrBuilder getIdentityOrBuilder() {
-        if (identityBuilder_ != null) {
-          return identityBuilder_.getMessageOrBuilder();
+      public Hospital.PersonOrBuilder getPersonOrBuilder() {
+        if (personBuilder_ != null) {
+          return personBuilder_.getMessageOrBuilder();
         } else {
-          return identity_ == null ?
-              Hospital.Person.getDefaultInstance() : identity_;
+          return person_ == null ?
+              Hospital.Person.getDefaultInstance() : person_;
         }
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> 
-          getIdentityFieldBuilder() {
-        if (identityBuilder_ == null) {
-          identityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getPersonFieldBuilder() {
+        if (personBuilder_ == null) {
+          personBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder>(
-                  getIdentity(),
+                  getPerson(),
                   getParentForChildren(),
                   isClean());
-          identity_ = null;
+          person_ = null;
         }
-        return identityBuilder_;
+        return personBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -4244,17 +4106,17 @@ public final class Hospital {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    boolean hasIdentity();
+    boolean hasPerson();
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    Hospital.Person getIdentity();
+    Hospital.Person getPerson();
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    Hospital.PersonOrBuilder getIdentityOrBuilder();
+    Hospital.PersonOrBuilder getPersonOrBuilder();
   }
   /**
    * Protobuf type {@code Lab}
@@ -4297,13 +4159,13 @@ public final class Hospital {
             }
             case 10: {
               Hospital.Person.Builder subBuilder = null;
-              if (identity_ != null) {
-                subBuilder = identity_.toBuilder();
+              if (person_ != null) {
+                subBuilder = person_.toBuilder();
               }
-              identity_ = input.readMessage(Hospital.Person.parser(), extensionRegistry);
+              person_ = input.readMessage(Hospital.Person.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(identity_);
-                identity_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(person_);
+                person_ = subBuilder.buildPartial();
               }
 
               break;
@@ -4331,25 +4193,25 @@ public final class Hospital {
               Hospital.Lab.class, Hospital.Lab.Builder.class);
     }
 
-    public static final int IDENTITY_FIELD_NUMBER = 1;
-    private Hospital.Person identity_;
+    public static final int PERSON_FIELD_NUMBER = 1;
+    private Hospital.Person person_;
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public boolean hasIdentity() {
-      return identity_ != null;
+    public boolean hasPerson() {
+      return person_ != null;
     }
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public Hospital.Person getIdentity() {
-      return identity_ == null ? Hospital.Person.getDefaultInstance() : identity_;
+    public Hospital.Person getPerson() {
+      return person_ == null ? Hospital.Person.getDefaultInstance() : person_;
     }
     /**
-     * <code>.Person identity = 1;</code>
+     * <code>.Person person = 1;</code>
      */
-    public Hospital.PersonOrBuilder getIdentityOrBuilder() {
-      return getIdentity();
+    public Hospital.PersonOrBuilder getPersonOrBuilder() {
+      return getPerson();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -4364,8 +4226,8 @@ public final class Hospital {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (identity_ != null) {
-        output.writeMessage(1, getIdentity());
+      if (person_ != null) {
+        output.writeMessage(1, getPerson());
       }
     }
 
@@ -4374,9 +4236,9 @@ public final class Hospital {
       if (size != -1) return size;
 
       size = 0;
-      if (identity_ != null) {
+      if (person_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getIdentity());
+          .computeMessageSize(1, getPerson());
       }
       memoizedSize = size;
       return size;
@@ -4394,10 +4256,10 @@ public final class Hospital {
       Hospital.Lab other = (Hospital.Lab) obj;
 
       boolean result = true;
-      result = result && (hasIdentity() == other.hasIdentity());
-      if (hasIdentity()) {
-        result = result && getIdentity()
-            .equals(other.getIdentity());
+      result = result && (hasPerson() == other.hasPerson());
+      if (hasPerson()) {
+        result = result && getPerson()
+            .equals(other.getPerson());
       }
       return result;
     }
@@ -4409,9 +4271,9 @@ public final class Hospital {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasIdentity()) {
-        hash = (37 * hash) + IDENTITY_FIELD_NUMBER;
-        hash = (53 * hash) + getIdentity().hashCode();
+      if (hasPerson()) {
+        hash = (37 * hash) + PERSON_FIELD_NUMBER;
+        hash = (53 * hash) + getPerson().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -4531,11 +4393,11 @@ public final class Hospital {
       }
       public Builder clear() {
         super.clear();
-        if (identityBuilder_ == null) {
-          identity_ = null;
+        if (personBuilder_ == null) {
+          person_ = null;
         } else {
-          identity_ = null;
-          identityBuilder_ = null;
+          person_ = null;
+          personBuilder_ = null;
         }
         return this;
       }
@@ -4559,10 +4421,10 @@ public final class Hospital {
 
       public Hospital.Lab buildPartial() {
         Hospital.Lab result = new Hospital.Lab(this);
-        if (identityBuilder_ == null) {
-          result.identity_ = identity_;
+        if (personBuilder_ == null) {
+          result.person_ = person_;
         } else {
-          result.identity_ = identityBuilder_.build();
+          result.person_ = personBuilder_.build();
         }
         onBuilt();
         return result;
@@ -4605,8 +4467,8 @@ public final class Hospital {
 
       public Builder mergeFrom(Hospital.Lab other) {
         if (other == Hospital.Lab.getDefaultInstance()) return this;
-        if (other.hasIdentity()) {
-          mergeIdentity(other.getIdentity());
+        if (other.hasPerson()) {
+          mergePerson(other.getPerson());
         }
         onChanged();
         return this;
@@ -4634,121 +4496,121 @@ public final class Hospital {
         return this;
       }
 
-      private Hospital.Person identity_ = null;
+      private Hospital.Person person_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> identityBuilder_;
+          Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> personBuilder_;
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public boolean hasIdentity() {
-        return identityBuilder_ != null || identity_ != null;
+      public boolean hasPerson() {
+        return personBuilder_ != null || person_ != null;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.Person getIdentity() {
-        if (identityBuilder_ == null) {
-          return identity_ == null ? Hospital.Person.getDefaultInstance() : identity_;
+      public Hospital.Person getPerson() {
+        if (personBuilder_ == null) {
+          return person_ == null ? Hospital.Person.getDefaultInstance() : person_;
         } else {
-          return identityBuilder_.getMessage();
+          return personBuilder_.getMessage();
         }
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder setIdentity(Hospital.Person value) {
-        if (identityBuilder_ == null) {
+      public Builder setPerson(Hospital.Person value) {
+        if (personBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          identity_ = value;
+          person_ = value;
           onChanged();
         } else {
-          identityBuilder_.setMessage(value);
+          personBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder setIdentity(
+      public Builder setPerson(
           Hospital.Person.Builder builderForValue) {
-        if (identityBuilder_ == null) {
-          identity_ = builderForValue.build();
+        if (personBuilder_ == null) {
+          person_ = builderForValue.build();
           onChanged();
         } else {
-          identityBuilder_.setMessage(builderForValue.build());
+          personBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder mergeIdentity(Hospital.Person value) {
-        if (identityBuilder_ == null) {
-          if (identity_ != null) {
-            identity_ =
-              Hospital.Person.newBuilder(identity_).mergeFrom(value).buildPartial();
+      public Builder mergePerson(Hospital.Person value) {
+        if (personBuilder_ == null) {
+          if (person_ != null) {
+            person_ =
+              Hospital.Person.newBuilder(person_).mergeFrom(value).buildPartial();
           } else {
-            identity_ = value;
+            person_ = value;
           }
           onChanged();
         } else {
-          identityBuilder_.mergeFrom(value);
+          personBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Builder clearIdentity() {
-        if (identityBuilder_ == null) {
-          identity_ = null;
+      public Builder clearPerson() {
+        if (personBuilder_ == null) {
+          person_ = null;
           onChanged();
         } else {
-          identity_ = null;
-          identityBuilder_ = null;
+          person_ = null;
+          personBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.Person.Builder getIdentityBuilder() {
+      public Hospital.Person.Builder getPersonBuilder() {
         
         onChanged();
-        return getIdentityFieldBuilder().getBuilder();
+        return getPersonFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
-      public Hospital.PersonOrBuilder getIdentityOrBuilder() {
-        if (identityBuilder_ != null) {
-          return identityBuilder_.getMessageOrBuilder();
+      public Hospital.PersonOrBuilder getPersonOrBuilder() {
+        if (personBuilder_ != null) {
+          return personBuilder_.getMessageOrBuilder();
         } else {
-          return identity_ == null ?
-              Hospital.Person.getDefaultInstance() : identity_;
+          return person_ == null ?
+              Hospital.Person.getDefaultInstance() : person_;
         }
       }
       /**
-       * <code>.Person identity = 1;</code>
+       * <code>.Person person = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder> 
-          getIdentityFieldBuilder() {
-        if (identityBuilder_ == null) {
-          identityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getPersonFieldBuilder() {
+        if (personBuilder_ == null) {
+          personBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               Hospital.Person, Hospital.Person.Builder, Hospital.PersonOrBuilder>(
-                  getIdentity(),
+                  getPerson(),
                   getParentForChildren(),
                   isClean());
-          identity_ = null;
+          person_ = null;
         }
-        return identityBuilder_;
+        return personBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -9861,43 +9723,43 @@ public final class Hospital {
   static {
     java.lang.String[] descriptorData = {
       "\n\016hospital.proto\"\025\n\007Request\022\n\n\002id\030\001 \001(\003\"" +
-      "\032\n\010Response\022\016\n\006status\030\001 \001(\t\";\n\006Person\022\n\n" +
-      "\002id\030\001 \001(\003\022\022\n\nfirst_name\030\002 \001(\t\022\021\n\tlast_na" +
-      "me\030\003 \001(\t\"$\n\007Patient\022\031\n\010identity\030\001 \001(\0132\007." +
-      "Person\"&\n\010Patients\022\032\n\010patients\030\001 \003(\0132\010.P" +
-      "atient\"#\n\006Doctor\022\031\n\010identity\030\001 \001(\0132\007.Per" +
-      "son\"#\n\007Doctors\022\030\n\007doctors\030\001 \003(\0132\007.Doctor" +
-      "\" \n\003Lab\022\031\n\010identity\030\001 \001(\0132\007.Person\"\032\n\004La" +
-      "bs\022\022\n\004labs\030\001 \003(\0132\004.Lab\"\323\001\n\013MedicalExam\022\n" +
-      "\n\002id\030\001 \001(\003\022\031\n\007patient\030\002 \001(\0132\010.Patient\022\027\n",
-      "\006doctor\030\003 \001(\0132\007.Doctor\022\021\n\003lab\030\004 \001(\0132\004.La" +
-      "b\022\014\n\004time\030\005 \001(\t\022*\n\007results\030\006 \003(\0132\031.Medic" +
-      "alExam.ResultsEntry\0327\n\014ResultsEntry\022\013\n\003k" +
-      "ey\030\001 \001(\t\022\026\n\005value\030\002 \001(\0132\007.Result:\0028\001\"V\n\024" +
-      "FilterByRangeRequest\022\n\n\002id\030\001 \001(\003\022\014\n\004name" +
-      "\030\002 \001(\t\022\021\n\tmin_value\030\003 \001(\001\022\021\n\tmax_value\030\004" +
-      " \001(\001\"%\n\006Result\022\r\n\005value\030\001 \001(\001\022\014\n\004unit\030\002 " +
-      "\001(\t\"\246\001\n\016AddExamRequest\022\016\n\006doctor\030\001 \001(\003\022\017" +
-      "\n\007patient\030\002 \001(\003\022\013\n\003lab\030\003 \001(\003\022-\n\007results\030" +
-      "\004 \003(\0132\034.AddExamRequest.ResultsEntry\0327\n\014R",
-      "esultsEntry\022\013\n\003key\030\001 \001(\t\022\026\n\005value\030\002 \001(\0132" +
-      "\007.Result:\0028\001\"8\n\017RegisterRequest\022\022\n\nfirst" +
-      "_name\030\001 \001(\t\022\021\n\tlast_name\030\002 \001(\t2A\n\016Patien" +
-      "tService\022/\n\021RequestAllResults\022\010.Request\032" +
-      "\014.MedicalExam\"\0000\0012\355\001\n\rDoctorService\022+\n\022R" +
-      "equestAllPatients\022\010.Request\032\t.Patients\"\000" +
-      "\0221\n\030RequestPatientsForDoctor\022\010.Request\032\t" +
-      ".Patients\"\000\022:\n\034RequestMedicalExamsForDoc" +
-      "tor\022\010.Request\032\014.MedicalExam\"\0000\001\022@\n\025Reque" +
-      "stResultsInRange\022\025.FilterByRangeRequest\032",
-      "\014.MedicalExam\"\0000\0012o\n\nLabService\022*\n\nAddRe" +
-      "sults\022\017.AddExamRequest\032\t.Response\"\000\0225\n\027R" +
-      "equestAllResultsForLab\022\010.Request\032\014.Medic" +
-      "alExam\"\0000\0012\260\001\n\rPublicService\022#\n\013ListDoct" +
-      "ors\022\010.Request\032\010.Doctors\"\000\022\035\n\010ListLabs\022\010." +
-      "Request\032\005.Labs\"\000\022/\n\017RegisterPatient\022\020.Re" +
-      "gisterRequest\032\010.Patient\"\000\022*\n\023RequestPers" +
-      "onalData\022\010.Request\032\007.Person\"\000b\006proto3"
+      "\n\n\010Response\";\n\006Person\022\n\n\002id\030\001 \001(\003\022\022\n\nfir" +
+      "st_name\030\002 \001(\t\022\021\n\tlast_name\030\003 \001(\t\"\"\n\007Pati" +
+      "ent\022\027\n\006person\030\001 \001(\0132\007.Person\"&\n\010Patients" +
+      "\022\032\n\010patients\030\001 \003(\0132\010.Patient\"!\n\006Doctor\022\027" +
+      "\n\006person\030\001 \001(\0132\007.Person\"#\n\007Doctors\022\030\n\007do" +
+      "ctors\030\001 \003(\0132\007.Doctor\"\036\n\003Lab\022\027\n\006person\030\001 " +
+      "\001(\0132\007.Person\"\032\n\004Labs\022\022\n\004labs\030\001 \003(\0132\004.Lab" +
+      "\"\323\001\n\013MedicalExam\022\n\n\002id\030\001 \001(\003\022\031\n\007patient\030" +
+      "\002 \001(\0132\010.Patient\022\027\n\006doctor\030\003 \001(\0132\007.Doctor",
+      "\022\021\n\003lab\030\004 \001(\0132\004.Lab\022\014\n\004time\030\005 \001(\t\022*\n\007res" +
+      "ults\030\006 \003(\0132\031.MedicalExam.ResultsEntry\0327\n" +
+      "\014ResultsEntry\022\013\n\003key\030\001 \001(\t\022\026\n\005value\030\002 \001(" +
+      "\0132\007.Result:\0028\001\"V\n\024FilterByRangeRequest\022\n" +
+      "\n\002id\030\001 \001(\003\022\014\n\004name\030\002 \001(\t\022\021\n\tmin_value\030\003 " +
+      "\001(\001\022\021\n\tmax_value\030\004 \001(\001\"%\n\006Result\022\r\n\005valu" +
+      "e\030\001 \001(\001\022\014\n\004unit\030\002 \001(\t\"\246\001\n\016AddExamRequest" +
+      "\022\016\n\006doctor\030\001 \001(\003\022\017\n\007patient\030\002 \001(\003\022\013\n\003lab" +
+      "\030\003 \001(\003\022-\n\007results\030\004 \003(\0132\034.AddExamRequest" +
+      ".ResultsEntry\0327\n\014ResultsEntry\022\013\n\003key\030\001 \001",
+      "(\t\022\026\n\005value\030\002 \001(\0132\007.Result:\0028\001\"8\n\017Regist" +
+      "erRequest\022\022\n\nfirst_name\030\001 \001(\t\022\021\n\tlast_na" +
+      "me\030\002 \001(\t2A\n\016PatientService\022/\n\021RequestAll" +
+      "Results\022\010.Request\032\014.MedicalExam\"\0000\0012\355\001\n\r" +
+      "DoctorService\022+\n\022RequestAllPatients\022\010.Re" +
+      "quest\032\t.Patients\"\000\0221\n\030RequestPatientsFor" +
+      "Doctor\022\010.Request\032\t.Patients\"\000\022:\n\034Request" +
+      "MedicalExamsForDoctor\022\010.Request\032\014.Medica" +
+      "lExam\"\0000\001\022@\n\025RequestResultsInRange\022\025.Fil" +
+      "terByRangeRequest\032\014.MedicalExam\"\0000\0012o\n\nL",
+      "abService\022*\n\nAddResults\022\017.AddExamRequest" +
+      "\032\t.Response\"\000\0225\n\027RequestAllResultsForLab" +
+      "\022\010.Request\032\014.MedicalExam\"\0000\0012\260\001\n\rPublicS" +
+      "ervice\022#\n\013ListDoctors\022\010.Request\032\010.Doctor" +
+      "s\"\000\022\035\n\010ListLabs\022\010.Request\032\005.Labs\"\000\022/\n\017Re" +
+      "gisterPatient\022\020.RegisterRequest\032\010.Patien" +
+      "t\"\000\022*\n\023RequestPersonalData\022\010.Request\032\007.P" +
+      "erson\"\000b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -9922,7 +9784,7 @@ public final class Hospital {
     internal_static_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Response_descriptor,
-        new java.lang.String[] { "Status", });
+        new java.lang.String[] { });
     internal_static_Person_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_Person_fieldAccessorTable = new
@@ -9934,7 +9796,7 @@ public final class Hospital {
     internal_static_Patient_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Patient_descriptor,
-        new java.lang.String[] { "Identity", });
+        new java.lang.String[] { "Person", });
     internal_static_Patients_descriptor =
       getDescriptor().getMessageTypes().get(4);
     internal_static_Patients_fieldAccessorTable = new
@@ -9946,7 +9808,7 @@ public final class Hospital {
     internal_static_Doctor_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Doctor_descriptor,
-        new java.lang.String[] { "Identity", });
+        new java.lang.String[] { "Person", });
     internal_static_Doctors_descriptor =
       getDescriptor().getMessageTypes().get(6);
     internal_static_Doctors_fieldAccessorTable = new
@@ -9958,7 +9820,7 @@ public final class Hospital {
     internal_static_Lab_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Lab_descriptor,
-        new java.lang.String[] { "Identity", });
+        new java.lang.String[] { "Person", });
     internal_static_Labs_descriptor =
       getDescriptor().getMessageTypes().get(8);
     internal_static_Labs_fieldAccessorTable = new

@@ -5,7 +5,7 @@ message Request {
 }
 
 message Response {
-  string status = 1;
+  
 }
 
 message Person {
@@ -15,14 +15,14 @@ message Person {
 }
 
 message Patient {
-  Person identity = 1;
+  Person person = 1;
 }
 message Patients {
   repeated Patient patients = 1;
 }
 
 message Doctor {
-  Person identity = 1;
+  Person person = 1;
 }
 
 message Doctors {
@@ -30,7 +30,7 @@ message Doctors {
 }
 
 message Lab {
-  Person identity = 1;
+  Person person = 1;
 }
 
 message Labs {

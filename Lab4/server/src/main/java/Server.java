@@ -93,22 +93,22 @@ public class Server {
 
     private static void registerDoctors() {
         for (int i = 0; i < 500; i++) {
-            Hospital.Doctor doctor = Hospital.Doctor.newBuilder().setIdentity(registerFakePerson()).build();
-            doctors.put(doctor.getIdentity().getId(), doctor);
+            Hospital.Doctor doctor = Hospital.Doctor.newBuilder().setPerson(registerFakePerson()).build();
+            doctors.put(doctor.getPerson().getId(), doctor);
         }
     }
 
     private static void registerLabs() {
         for (int i = 0; i < 500; i++) {
-            Hospital.Lab lab = Hospital.Lab.newBuilder().setIdentity(registerFakePerson()).build();
-            labs.put(lab.getIdentity().getId(), lab);
+            Hospital.Lab lab = Hospital.Lab.newBuilder().setPerson(registerFakePerson()).build();
+            labs.put(lab.getPerson().getId(), lab);
         }
     }
 
     private static void registerPatients() {
         for (int i = 0; i < 4000; i++) {
-            Hospital.Patient patient = Hospital.Patient.newBuilder().setIdentity(registerFakePerson()).build();
-            patients.put(patient.getIdentity().getId(), patient);
+            Hospital.Patient patient = Hospital.Patient.newBuilder().setPerson(registerFakePerson()).build();
+            patients.put(patient.getPerson().getId(), patient);
         }
     }
 
