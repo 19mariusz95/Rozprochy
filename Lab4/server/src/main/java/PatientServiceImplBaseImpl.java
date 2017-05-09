@@ -11,9 +11,11 @@ public class PatientServiceImplBaseImpl extends PatientServiceGrpc.PatientServic
         if(Objects.isNull(Server.patients.get(request.getId()))) {
             throw new StatusRuntimeException(Status.PERMISSION_DENIED);
         }
-        Server.exams.stream()
-                .filter(e -> e.getPatient().getPerson().getId() == request.getId())
-                .forEach(responseObserver::onNext);
+        synchronized (Server.exams) {
+            Server.exams.stream()
+                    .filter(e -> e.getPatient().getPerson().getId() == request.getId())
+                    .forEach(responseObserver::onNext);
+        }
         responseObserver.onCompleted();
     }
 

@@ -24,7 +24,9 @@ public class PublicServiceImplBaseImpl extends PublicServiceGrpc.PublicServiceIm
     public void registerPatient(Hospital.RegisterRequest request, StreamObserver<Hospital.Patient> responseObserver) {
         Hospital.Person person = Server.registerPerson(request.getFirstName(), request.getLastName());
         Hospital.Patient patient = Hospital.Patient.newBuilder().setPerson(person).build();
-        Server.patients.put(patient.getPerson().getId(), patient);
+        synchronized (Server.patients) {
+            Server.patients.put(patient.getPerson().getId(), patient);
+        }
         responseObserver.onNext(patient);
         responseObserver.onCompleted();
     }

@@ -23,7 +23,9 @@ public class LabServiceImplBaseImpl extends LabServiceGrpc.LabServiceImplBase {
                 .setTime(LocalDateTime.now().toString())
                 .putAllResults(request.getResultsMap())
                 .build();
-        Server.exams.add(medicalExam);
+        synchronized (Server.exams) {
+            Server.exams.add(medicalExam);
+        }
         responseObserver.onNext(Hospital.Response.getDefaultInstance());
         responseObserver.onCompleted();
     }
@@ -31,8 +33,10 @@ public class LabServiceImplBaseImpl extends LabServiceGrpc.LabServiceImplBase {
     @Override
     public void requestAllResultsForLab(Hospital.Request request, StreamObserver<Hospital.MedicalExam> responseObserver) {
         checkPerms(request.getId());
-        Server.exams.stream().filter(e -> e.getLab().getPerson().getId() == request.getId())
-                .forEach(responseObserver::onNext);
+        synchronized (Server.exams) {
+            Server.exams.stream().filter(e -> e.getLab().getPerson().getId() == request.getId())
+                    .forEach(responseObserver::onNext);
+        }
         responseObserver.onCompleted();
     }
 

@@ -10,10 +10,10 @@ public class Server {
 
     private static final int PORT = 12345;
 
-    public static Map<Long, Hospital.Patient> patients = new HashMap<>();
+    public static final Map<Long, Hospital.Patient> patients = new HashMap<>();
     public static Map<Long, Hospital.Lab> labs = new HashMap<>();
     public static Map<Long, Hospital.Doctor> doctors = new HashMap<>();
-    public static Set<Hospital.MedicalExam> exams = new HashSet<>();
+    public static final Set<Hospital.MedicalExam> exams = new HashSet<>();
     private static int personId = 1;
     private static List<String> names = new ArrayList<>();
     private static List<String> surNames = new ArrayList<>();
