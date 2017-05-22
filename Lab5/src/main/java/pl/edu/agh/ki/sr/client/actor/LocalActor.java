@@ -4,6 +4,7 @@ import akka.actor.AbstractActor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pl.edu.agh.ki.sr.bookstore.actors.SearchActor;
+import pl.edu.agh.ki.sr.bookstore.response.SearchResponse;
 
 public class LocalActor extends AbstractActor {
 
@@ -33,6 +34,9 @@ public class LocalActor extends AbstractActor {
                             break;
 
                     }
+                })
+                .match(SearchResponse.class, o -> {
+                    System.out.println(o.getMessage());
                 })
                 .matchAny(o -> logger.info("received unknown message"))
                 .build();
