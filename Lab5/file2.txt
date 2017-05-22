@@ -1,0 +1,1948 @@
+"Po burzy" 214
+"Czyściec" 47
+"Raj" 205
+"Marsz strzelców" 79
+"Bąk i piłka" 103
+"Calineczka" 147
+"Cień" 163
+"Czerwone buciki" 120
+"Dzwony" 153
+"Krasnoludek" 206
+"Kwiaty Idalki" 38
+"Listek z nieba" 186
+"Motylek" 211
+"Polny kwiatek" 111
+"Ślimak i róża" 60
+"Słowik" 92
+"Towarzysz podróży" 220
+"U króla Olch" 129
+"Z jednego gniazda" 197
+"An Frau Caroline Pichler" 51
+"Burza" 101
+"(Gdzie bluszcz po zimnym grobie się wije...)" 223
+"Grób" 36
+"Łzy" 67
+"(Lecz próżna nadzieja, i martwe życzenia...)" 66
+"Noc" 160
+"Oko" 182
+"Ranek" 44
+"Sonety" 176
+"Ucieczka" 172
+"Współczucie" 128
+"Żeglarz" 62
+"(Nim próg przestąpiłem celi...)" 144
+"Orland szalony" 148
+"Orland szalony, tom II" 108
+"Chmury" 28
+"Żaby" 210
+"Adamowi Pługowi" 85
+"A Sonnet (One Heart)" 52
+"Bez odpowiedzi" 221
+"Choć pól i łąk" 187
+"Daremne żale" 61
+"Do Sokołów" 85
+"Dwie fazy" 86
+"Fale" 111
+"Fresk pompejański" 116
+"Głos wołający na puszczy" 45
+"Historyczna nowa szkoła" 104
+"III (Łudząca Maja otworzy ci oczy...)" 182
+"II (Wieczne ciemności, bezdenne otchłanie...)" 196
+"IV (Jak ptaki, kiedy odlatywać poczną...)" 102
+"IX (Na tem koniec? Nie jeszcze! Naród do ostatka...)" 120
+"I (Zmiennego bytu falo ty ruchliwa...)" 147
+"J. I. Kraszewskiemu" 33
+"Juliuszowi Mien" 208
+"[Kiedym cię żegnał...]" 217
+"Krąg przemian" 151
+"Między nami nic nie było" 202
+"Młodości sen" 73
+"Myśli ulotne" 123
+"No, Nothing Happened There" 42
+"To the Young" 173
+"VIII (Noc, noc wieczysta, głuszą przedbytową...)" 128
+"VII (Piękne dzieło zniszczenia! cudne wynalazki!)" 95
+"VI (Na falach swoich toczy słońc miliony...)" 202
+"V (To był prolog dopiero, a teraz na scenie...)" 134
+"XII (Ja jeden tryumfuję, patrząc na tę ziemię...)" 102
+"XII (Wzniosłe dążenia, szlachetne pobudki...)" 41
+"XIV (Po wszystkie czasy, przez obszar daleki...)" 210
+"X (Tylko treść, która z całością się splata...)" 64
+"XVII (Co złość zniweczy, co występek zburzy...)" 203
+"XV (Na dzieci spada win ojcowskich brzemię...)" 196
+"XXIII (Choć w praw niezmiennych poruszasz się kole...)" 220
+"XXIV (Przez chwilę możesz ślepą być zaporą...)" 49
+"XXIX (Póki w narodzie myśl swobody żyje...)" 158
+"XXVII (Smutny jest schyłek roku w mgieł pomroce!...)" 33
+"XXV (Jako cząsteczka wszechświata myśląca...)" 46
+"XXXIII (Pośród narodów, wyście nędzarzami!...)" 162
+"XXXI (Odkąd znów padło w proch twe czoło dumne...)" 53
+"Zaczarowana królewna" 119
+"Noc była" 81
+"1942, 1943, 1944" 213
+"(Ach, jak ogłusza to wszystko...)" 224
+"Bajka" 204
+"Ballada o rzece" 60
+"Ballada zimowa" 93
+"Biała magia" 66
+"(Byłeś jak wielkie, stare drzewo...)" 202
+"Ciemna miłość" 141
+"Ci ludzie" 176
+"Czart" 72
+"(Dokąd to jeszcze?)" 154
+"Do Pana Józefa w dniu imienin 1942 roku" 224
+"Dwie miłości" 184
+"Dzieło dla rąk" 55
+"Elegia (Mokre gałęzie świerków...)" 92
+"Elegia o... [chłopcu polskim]" 45
+"Erotyk" 213
+"(Gdy za powietrza zasłoną...)" 33
+"Hallelujah" 44
+"Historia" 214
+"(Jerzy! Mój przyjacielu, zanim się sprowadzisz...)" 84
+"Kołysanka" 224
+"Krajobraz zimowy" 183
+"(Książka leżała na stole...)" 222
+"Łowy" 219
+"Lodowisko" 201
+"Magia" 203
+"Miłość" 162
+"Młot" 73
+"Modlitwa do Bogurodzicy" 123
+"Narodziny Boga" 178
+"(Niebo złote ci otworzę...)" 43
+"(Nie to, co mi się śniło...)" 90
+"Noc" 189
+"Obozy" 111
+"(Oddycha miasto ciemne długimi wiekami...)" 178
+"Olbrzym w lesie" 185
+"O mój ty smutku cichy" 186
+"Orfeusz w lesie" 46
+"(O wielkie niebo świata...)" 50
+"Pamiąteczki" 132
+"Pieśń o klęsce" 40
+"Piosenka" 32
+"Piosenka śnieżna żołnierza" 138
+"(Pod nieba dłoniastą palmą nie daj mi chodzić samotnie...)" 43
+"Pokolenie (Do palców przymarzły struny)" 220
+"Polacy" 52
+"Pożegnanie żałosnego strzelca" 216
+"Promienie" 169
+"Przypowieść" 55
+"Psalm 3. O łasce" 183
+"Róża świata" 86
+"Romantyczność" 113
+"Rycerz" 196
+"Rzeka" 220
+"Śpiew do snu" 71
+"(Świat - kryształowa kula...)" 209
+"Świętość" 167
+"Sen" 132
+"Serce jak obłok" 50
+"(Stąd: niebo jest duże jak niebo południa...)" 106
+"Starość" 150
+"Swoboda" 167
+"Tego dnia" 86
+"Teologia" 85
+"(Tych miłości, które z nami...)" 35
+"Ugory" 65
+"Warszawa" 60
+"Westchnienie" 47
+"Wieczory" 121
+"Wigilia" 85
+"Wizerunek" 208
+"Wróble" 165
+"(W takiej ciszy słyszała, jak na godzin stopnie...)" 114
+"Wyroki" 212
+"Żal" 128
+"Z głową na karabinie" 88
+"(Ziemia jak ognia słup...)" 143
+"Z lasu" 135
+"Z szopką" 66
+"Zwycięzcy" 114
+"Dorożkarz nr 13" 151
+"Latawica" 160
+"Prosto z pensyi" 154
+"Zaklęte pieniądze" 63
+"Córka Ewy" 157
+"Facino Cane" 181
+"Granatka" 97
+"Kobieta porzucona" 117
+"Kuratela" 62
+"Małe niedole pożycia małżeńskiego" 125
+"Muza z zaścianka" 134
+"Proboszcz z Tours" 155
+"(Snycerzu, szukaj bacznie...)" 152
+"Życie snem" 48
+"Albatros" 129
+"Błogosławieństwo" 221
+"Cudzoziemiec" 68
+"Człowiek i morze" 58
+"Do Kreolki" 98
+"Don Juan w piekle" 190
+"Dusza wina" 53
+"Franciscae meae laudes" 160
+"Harmonia wieczorna" 158
+"Hymn do piękna" 35
+"Jutrzenka duszy" 206
+"Kara pychy" 25
+"Latarnie" 146
+"Marzenie ciekawego" 102
+"Maska" 111
+"Mogiła wyklętego poety" 45
+"Muza sprzedajna" 133
+"Niepowrotne" 169
+"Oddźwięki" 169
+"Olbrzymka" 113
+"Otchłań" 178
+"Piękno" 46
+"Pies i flakon" 68
+"Podróż" 57
+"Śmierć kochanków" 35
+"Sed non satiata" 157
+"Spleen" 223
+"Staruszki" 68
+"Warkocz" 214
+"Wiersz ten ci święcę..." 46
+"Wino samotnika" 200
+"Wyrzut pośmiertny" 60
+"Wyznanie artysty" 132
+"Żądza nicestwa" 66
+"Zagubienie aureoli" 199
+"Zaproszenie do podróży" 26
+"Zły mnich" 84
+"Zmrok poranny" 61
+"Zwierciadło" 199
+"Bajeczka wstępna" 53
+"Co kochać?" 220
+"Disce puer" 95
+"Do polskiej dzieweczki" 37
+"Katechizm polskiego dziecka (zbiór)" 196
+"Marsz Skautów" 112
+"Modlitwa za Ojczyznę" 62
+"Polska mowa" 79
+"Ziemia rodzinna" 87
+"De profundis" 72
+"Do p. Davida, snycerza posągów" 76
+"Jedna jeszcze wiosna" 181
+"Moje ustronie" 129
+"Pięć palców dłoni" 70
+"Skarbo" 215
+"*** (Dobry wieczór, nazywam się Mickiewicz...)" 178
+"Za Niemen hen precz" 64
+"Įvairūs apsakymėliai" 45
+"Liūdna pasaka" 163
+"Ubagas" 147
+"Łuk miłości" 211
+"Sen" 219
+"Medytacje" 202
+"Opuszczony okop" 166
+"Pozdrowienie anielskie w narodzie polskim" 210
+"W dzień zaduszny" 183
+"Wycieczka" 108
+"Dziewczę ze Słonecznego Wzgórza" 101
+"Marsz weselny" 170
+"Rozbitki" 99
+"Dekameron, Dzień czwarty" 54
+"Dekameron, Dzień dziesiąty" 192
+"Dekameron, Dzień ósmy" 206
+"Dekameron,  Dzień pierwszy" 114
+"Dekameron, Dzień szósty" 127
+"Dekameron, Prolog" 62
+"Bajeczki Józia" 86
+"Co mówili w kościele u Kapucynów" 122
+"Dziadzio" 166
+"Dziewice konsystorskie" 60
+"Ernestynka" 219
+"Franio" 59
+"Głos dziadkowy o restauracji kościoła parafialnego w... Poręcinie" 165
+"Historia „Prawicy Narodowej”" 195
+"Jak wygląda niedziela" 40
+"Kaprys" 190
+"Kilka słów w obronie świętości małżeństwa" 104
+"Kuplet posła Battaglii" 190
+"List prywatny do Kornela Makuszyńskiego" 58
+"Ludzie żywi" 143
+"Marzenie i pysk" 78
+"Modlitwa estety" 177
+"Naszym hymenografomanom" 161
+"Nowa wiara" 27
+"Obiad literacki" 150
+"Odsiecz Wiednia" 179
+"Opowieść dziadkowa o cudach Rapperswylskich" 60
+"O tem co w Polszcze dzieyopis mieć winien" 218
+"Piekło kobiet" 123
+"Pieśń o lwowskim Rafaelu" 132
+"Pieśń o naszych stolicach i jak je Opatrzność obdzieliła" 112
+"Piosenka sentymentalna, której jednak nie trzeba brać zanadto serio" 157
+"Piosenka wzruszająca" 40
+"Plotka o „Weselu” Wyspiańskiego" 47
+"Pobudka grunwaldzka" 186
+"Pochwała wieku dojrzałego" 96
+"Pożegnanie" 204
+"Proust i jego świat" 128
+"Słówka" 183
+"Słowa cienkie i grube" 169
+"Spowiedź poety" 199
+"«Trudno inaczej...»" 103
+"W Karlsbadzie" 42
+"Zdarzenie prawdziwe" 215
+"Zmysły... zmysły..." 91
+"Znasz-li ten kraj?..." 179
+"Z podróży Lucjana Rydla na wschód" 222
+"Ahaswer" 99
+"Ciało" 147
+"Do reportera" 216
+"Duma o Słowackim" 112
+"Gdynia" 137
+"Golgota" 54
+"Jak pracują warsztaty" 169
+"Łódź fabryczna" 182
+"Mokre światło..." 48
+"Nowi bogowie" 36
+"Oda do wolności" 93
+"O rodzeniu chleba, czyli o pisaniu wiersza" 89
+"Piotr" 181
+"Przemysły (tomik)" 119
+"Rzecz o poezji" 173
+"Wiosną" 102
+"Wspomnienie o Żeromskim" 220
+"Zaczarowana karczma" 148
+"Ziemia marcowa" 132
+"Monna Kerywel" 64
+"Strącone liście" 207
+"O literaturze rosyjskiej i naszym do niej stosunku dziś i lat temu trzysta" 103
+"Starożytna Litwa" 85
+"Wstęp do filozofii" 120
+"Woyzeck" 92
+"Na greckiej fali" 98
+"Zbudź się!" 201
+"Fatalne jaja" 173
+"Tajemniczy ogród" 66
+"Asyż" 214
+"Charaktery i anegdoty" 62
+"Przygody ostatniego z Abenserażów" 212
+"Amy Foster" 172
+"Lord Jim" 183
+"Lord Jim, tom drugi" 224
+"Młodość" 56
+"[Młodość i inne opowiadania] Przedmowa autora" 188
+"Placówka postępu" 43
+"Cyd" 195
+"W knajpie" 210
+"Złote sidła" 216
+"Bezbronna istota" 195
+"Damy" 118
+"Dramat" 154
+"Dzieło sztuki" 209
+"Malcy" 129
+"Order" 217
+"Podrzutek" 179
+"Przesolił" 110
+"Syrena" 184
+"Szydło w worku" 63
+"W biurze pocztowym" 82
+"Wykrzyknik" 133
+"Żarcik" 127
+"Zemsta" 108
+"a la campagne" 87
+"Ballada z tamtej strony" 210
+"Ballada z tamtej strony (tomik)" 29
+"Coda" 144
+"Daleko" 51
+"Dno" 198
+"Do Tereski z Lisieux" 78
+"[Dzień jak co dzień - Dedykacja]" 66
+"Dzisiaj Verdun" 176
+"Elegia niemocy" 128
+"Elegia żalu" 204
+"Elegie der Trauer" 62
+"Front" 132
+"Imieniny" 174
+"Jabłko życia" 118
+"Jednakowo" 39
+"Je le sois" 93
+"Jesienią" 149
+"Kamień (tomik)" 36
+"Kompozycja" 220
+"Kwiecień tych co bez troski" 29
+"Lato na Wołyniu" 28
+"Liryka" 32
+"Miłość" 182
+"Modlitwa żałobna" 111
+"Narzeczona" 205
+"Na wsi" 118
+"Nic więcej (tomik)" 32
+"nuta człowiecza (tomik)" 88
+"Obłoki" 124
+"O matce" 156
+"Opowiadanie" 134
+"Pamięci zniknionego" 182
+"Pędem" 101
+"Pieśń o niedobrej burzy" 82
+"Piłsudski" 214
+"Piosenka ze łzami" 148
+"Pod dworcem głównym w Warszawie" 97
+"Polacy" 59
+"Preludium" 97
+"Przeczucia" 155
+"Przemiany" 25
+"Przez kresy" 194
+"Rymy pobożne" 26
+"Śmierć" 154
+"Świat" 121
+"Sam" 173
+"Sen" 181
+"Synteza" 175
+"Toruń" 110
+"une ruelle" 45
+"W boju" 25
+"Westchnienie" 187
+"Więzień miłości" 120
+"Wieczorem" 219
+"Wigilia" 182
+"W pejzażu" 186
+"Zapowiedź" 176
+"Zdrada" 148
+"Z pamiętnika" 191
+"Boże Narodzenie" 120
+"Sekret" 90
+"Świat" 142
+"Kwestia kobieca a małżeństwo" 161
+"(Oczarowały noce letnie...)" 44
+"Nad morzem" 116
+"Wizja" 128
+"Robinson Crusoe" 146
+"Panienka z okienka" 192
+"(Ach! rzucić sieci zdarte...)" 69
+"(Na skraju łączki mokrej...)" 61
+"(Pokój hotelu pusty i posępny...)" 50
+"Wieniec z liści odarty" 166
+"Dawid Copperfield" 54
+"Dawid Copperfield, tom pierwszy" 33
+"Lietuvaitės" 212
+"Bracia Dalcz i S-ka, tom drugi" 44
+"Dr. Murek zredukowany" 196
+"Kariera Nikodema Dyzmy" 90
+"Profesor Wilczur" 205
+"Znachor" 145
+"Hanusia Wierzynkówna" 99
+"Królewska niedola" 39
+"Paziowie króla Zygmunta" 84
+"Dzwony" 125
+"Pies Baskerville'ów" 124
+"Na Bobra złapanego w sieci od pewnego łowczego, którym sąsiadów utraktował" 148
+"Na kochającą się przez dwanaście lat parę i Maryasz ich" 160
+"Na Obraz płaczącego Kupidyna i smutnej Wenery" 28
+"Na pysznego, który o sobie wiele trzyma i nad wszystkich się wynosi w doskonałości" 151
+"Opisanie wzajemnej miłości tejże Siostry z Bratem" 100
+"Przypisanie pewnemu Kawalerowi, który za jednem strzeleniem młyn na wodzie, domy na lądzie spalił" 53
+"Siostra Bratu posyłająca książkę listów Dam Greckich" 139
+"Wiersze światowe" 145
+"Boże Narodzenie" 181
+"Do romantyka" 62
+"Dźwięki minionych lat" 73
+"Ironia życia" 119
+"Lauretta" 31
+"Pieśń na zwaliskach" 156
+"Podróż na Syberyą" 207
+"Przechadzka wieczorna" 169
+"Sfinks" 100
+"Szlachta w roku 1831" 61
+"Tańce zapustne" 112
+"Ułamek (II)" 159
+"Utęsknienie" 129
+"Wspólne marzenia" 109
+"Zachwycenie" 113
+"Zwaliska" 207
+"Jasna niedziela" 51
+"Hippolytos uwieńczony" 168
+"Medea" 169
+"Testament" 132
+"Księżna De Clèves" 155
+"Kuszenie świętego Antoniego" 117
+"Manekin trzcinowy" 58
+"W cieniu wiązów" 136
+"Zemsta" 170
+"Ballada o stajence" 132
+"Czarne okna" 54
+"Do zmarłej" 139
+"Epitafium" 165
+"Kantyczka wołania pełna" 144
+"Miłość bez jutra" 74
+"Na progu" 112
+"Opowieść z innego świata" 193
+"Po raz pierwszy modlitwa" 110
+"Schodząc" 53
+"Temu, który przyjdzie" 191
+"Ukochanej" 135
+"Wezwanie" 84
+"Wizja skąpa" 65
+"Samowiedzy! Boleści!" 29
+"(Duch twój, gdy dzisiaj...)" 73
+"Lutnista" 106
+"Porta Nigra" 161
+"Futro" 117
+"Na zdarzenie z życia prywatnego" 43
+"Powrót" 27
+"Przebudzenie" 73
+"Pycha" 26
+"Rozmówka o przyszłości" 178
+"Świętokradztwo" 172
+"Treść" 105
+"Wszystkie prawa zastrzeżone" 218
+"Cierpienia młodego Wertera" 64
+"Faust" 92
+"Faust, część druga" 74
+"Faust. Der Tragödie erster Teil" 196
+"Herman i Dorota" 213
+"Ptaszki podług Arystofanesa" 98
+"Wieś opuszczona" 62
+"Cudna mieszczka" 106
+"Wspomnienia niebieskiego mundurka" 183
+"Król zamczyska" 34
+"Srebrna zajęczyca i inne baśnie" 83
+"Czad" 103
+"Demon ruchu" 154
+"Dziwna stacja" 56
+"Głucha przestrzeń" 128
+"Namiętność" 186
+"Po stycznej" 200
+"Projekcje" 186
+"Ślepy tor" 191
+"Saturnin Sektor" 25
+"Sygnały" 107
+"Szary pokój" 65
+"W willi nad morzem" 33
+"Zez" 30
+"Białośnieżka i Różanka" 181
+"Braciszek i siostrzyczka" 120
+"Czerwony Kapturek" 196
+"Dziewczynka i lalka" 117
+"Jednooczka, Dwuoczka, Trzyoczka" 182
+"Krasnoludki" 123
+"Król żab" 152
+"Mysi-królik i niedźwiedź" 155
+"O dzielnym krawczyku" 93
+"Pan Grubas" 145
+"Pastuszka gęsi" 205
+"Roszpunka" 48
+"Śmierć kurki" 45
+"Siedmiośpiochy" 114
+"Stoliczku, nakryj się!" 86
+"Trzej bracia" 37
+"Ubogi bogaty" 98
+"Wilk i człowiek" 170
+"Wszechwiedzący doktór" 168
+"Noc" 159
+"W podziemiach ruin" 209
+"Wpatruj się co wieczora..." 139
+"Įžanga" 115
+"Najpiękniejsza" 113
+"Przygody dobrego wojaka Szwejka podczas wojny światowej" 115
+"Przygody dobrego wojaka Szwejka podczas wojny światowej, tom III i IV" 54
+"Judyta" 39
+"Dysputa" 125
+"Dziecię wieszczek" 217
+"Fragment" 202
+"Patmos" 152
+"Źrałe są w ogniu nurzane..." 172
+"Das Majorat" 217
+"Der Sandmann" 75
+"Don Juan" 91
+"Kawaler Gluck" 176
+"Narożne okno" 119
+"Piaskun" 124
+"Ritter Gluck" 102
+"Skrzypce z Cremony (Radca Crespel)" 129
+"Złoty garnek" 68
+"In memoriam Böcklina" 45
+"Przedświt" 107
+"Przeżycie" 164
+"Iliada" 123
+"Podróż po rzece Orinoko" 77
+"Adaś" 132
+"Alinka" 77
+"Bajki i powiastki" 126
+"Braciszek i siostrzyczka" 72
+"Bryś" 72
+"Chart i osioł" 134
+"Chłopczyk ukarany" 181
+"Chmurka" 97
+"Czysty kotek" 100
+"Deszczyk" 117
+"Druciarz" 54
+"Dwa kotki" 41
+"Dwa pługi" 139
+"Dziadek przy kominku" 34
+"Dziecię i konwalia" 77
+"Dziecię i zegar" 206
+"Dziewczynka i matka" 62
+"Fijołek" 157
+"Gniazdo jaskółki" 198
+"Gospodarz i czeladka" 172
+"Grosz wdowi" 196
+"Henryś i Waluś" 92
+"Jabłoń i chłopczyk" 165
+"Justynka" 47
+"Kłamstwo" 211
+"Kościołek" 50
+"Kotek lizuś" 101
+"Krawiec" 222
+"Kruk i łabędź" 148
+"Kruk z dzwonkiem" 169
+"Krzyżyk złoty" 77
+"Kwoka i kogucik" 161
+"Łza matki" 170
+"Lis przy zgonie" 169
+"Litośna dziewczyna" 219
+"Ludwiś" 44
+"Marynia" 211
+"Matka i dziecię (Przyszedł Jaś zrana...)" 221
+"Motylki" 157
+"Myszka na śniadaniu" 81
+"Ogródek" 125
+"Ojciec i syn" 37
+"Orzeł i żółw" 171
+"Osioł i dzik" 193
+"Pelikan i bocian" 82
+"Pierścionek" 62
+"Piesek Kruczek" 94
+"Plama i łata" 83
+"Pokoik Zosi" 148
+"Przechadzka" 123
+"Przestroga" 84
+"Pszczółka i mrówka" 195
+"Pszczoła i gołąbek" 89
+"Pudel" 151
+"Rybak" 201
+"Ślimaczek" 212
+"Sen" 119
+"Siwe włoski" 56
+"Skoczek dobroczynny" 118
+"Skowronek i dziecię" 70
+"Słońce i księżyc" 224
+"Słowik i paw" 189
+"Staś" 93
+"Szara godzina" 192
+"Szczurek na wędrówce" 103
+"Szerszeń i wiewiórka" 177
+"Teodorek" 122
+"Ugoda z wróblami" 46
+"Walerek" 193
+"Wdzięczność" 173
+"Wieczór pod drzewkami" 123
+"Wiewiórka i małpa" 156
+"Wilk w baraniej skórze" 109
+"Wojnickie kukiełki" 57
+"Wróbelek i kurczątko" 177
+"Żebrak i kamień" 160
+"Zając" 92
+"Zdzisławek" 43
+"Zgodne rodzeństwo" 108
+"Zwierciadło Rózi" 35
+"Atlantyda" 80
+"Jak Maria Magdalena" 165
+"Malachity" 99
+"Postaci z maskarady" 64
+"Quimper" 88
+"Rzut perspektywy" 35
+"Skargi więźnia" 153
+"Tysiąc ubolewań" 131
+"Ziemia zroszona" 154
+"Ubu Król czyli Polacy" 42
+"[But w butonierce - Dedykacja]" 208
+"Cafe" 43
+"[Intermezzo (Czy widzieliście...)]" 120
+"Ipecacuana" 170
+"Lili nudzi się" 66
+"Miasto" 201
+"Morga" 115
+"Nic" 188
+"Panienki w lesie" 210
+"Pieśń o głodźe" 134
+"Prozowierszem" 82
+"Śmierć Pana Premiera" 125
+"Słowo o Jakóbie Szeli" 166
+"Tango jesienne" 32
+"Wiosna" 156
+"Dante" 41
+"Froim" 160
+"Motinai" 205
+"Chore perły i inne opowiadania" 49
+"Remedium dla literatów" 191
+"Śpiewaj wolno..." 152
+"O potędze ducha" 181
+"Do Justyny" 60
+"Laura i Filon" 139
+"Mazurek" 27
+"Pieśń o Narodzeniu Pańskim (Bóg się rodzi...)" 180
+"Powrót z Warszawy na wieś" 43
+"Przypomnienie dawnej miłości" 47
+"Tłumaczenia" 167
+"Z autora niewiadomego" 69
+"Z niewiadomego" 29
+"Rozprawa o metodzie" 176
+"Bądź pozdrowiona!" 43
+"Dies Irae" 39
+"Hymn św. Franciszka z Asyżu" 42
+"I (Chaty rzędem na piaszczystych wzgórkach...)" 127
+"III (Waruno!...)" 67
+"II (Tam, za wioską - przyjm...)" 124
+"II (Z motywów wedyckich)" 182
+"IV (Biją dzwony... trza święcić niedzielę...)" 125
+"I (Wierzyłem zawsze w światła moc...)" 58
+"Jezioro Maerjelen" 149
+"Jungfrau" 143
+"Moja pieśń wieczorna" 61
+"Na jeziorach włoskich" 102
+"Na lodowcach Aletschu" 150
+"Na Teufelsbruecke" 66
+"Odi profanum volgus" 173
+"Powiadają, że w nas nie ma..." 40
+"Salome" 72
+"Siądź na kamieniu" 73
+"Szlakiem symplońskiej drogi" 28
+"VI (Ach! nieraz mi się zdaje...)" 208
+"VIII (Byłeś mi dawniej bożyszczem, o tłumie...)" 193
+"VII (Życia ogromne morze grzmi przede mną...)" 39
+"W ciemności schodzi moja dusza" 85
+"Wiatr halny" 196
+"XIII (Pierwsze lata, kiedy się pobrali...)" 117
+"X (Tęsknię ku tobie, o szumiący lesie...)" 161
+"XV (Miała rolę, sprzedali jej rolę...)" 123
+"XX (Na kominie płomyczek się żarzy...)" 65
+"XXXIX (Rano, zimą, mróz czy zawierucha...)" 48
+"Z Alp" 54
+"Ze szczytu Eggishornu" 106
+"Z wichrów i hal" 144
+"Cztery sposoby nawiązywania relacji [z istotami] przez bodhisattwę" 169
+"O przyjmowaniu wskazań" 216
+"Druga księga dżungli" 44
+"Kim" 106
+"Puk z Pukowej Górki" 41
+"Der zerbrochne Krug" 185
+"Rozbity dzban" 161
+"Do Anakreonta" 28
+"Do Anny (Królowi rówien, a jeśli się godzi...)" 81
+"Do Baltazera" 126
+"Do boginiej" 165
+"Do doktora (Arcydoktorem cię zwać każdy może śmiele...)" 36
+"Do doktora (Mówiłem ci, nie noś mi tych fraszek, doktorze...)" 183
+"Do doktora (Nie mam ci zacz dziękować, mój miły doktorze...)" 151
+"Do doktora (Nie wiem, podobno li to co ku rozumowi...)" 189
+"Do dziewki (A co wiedzieć, gdzie chodzisz, moja dziewko śliczna...)" 209
+"Do dziewki (Jeśli to rada widzisz, a życzysz mi tego...)" 137
+"Do Franciszka" 28
+"Do fraszek (Fraszki nieprzepłacone, wdzięczne fraszki moje...)" 25
+"Do gór i lasów" 206
+"Do gościa (Gościu, tak jakoś począł, już do końca czytaj...)" 207
+"Do gościa (Jeśli darmo masz te książki...)" 193
+"Do gospodarza (Nie bądź gościem u siebie, wiedz, co się w cię wleje...)" 147
+"Do gospodyniej" 150
+"Do Hanny (Na palcu masz dyjament, w sercu twardy krzemień...)" 205
+"Do Jadwigi" 178
+"Do Jana (Janie, cierp', jako możesz! Przyjdzie ta godzina...)" 199
+"Do Jana (Jeśli stąd jaką rozkosz ma człowiek cnotliwy...)" 193
+"Do Jędrzeja (A cóż radzisz, Jędrzeju? Wszak mogę w twe uszy...)" 46
+"Do Jędrzeja Patrycego" 79
+"Do Jósta (Wiesz, coś mi winien; miejże się do taszki...)" 65
+"Do Kachny (Pewnie cię moje zwierciadło zawstydzi...)" 118
+"Do kaznodzieja" 57
+"Do Łask" 33
+"Do Magdaleny" 217
+"Do Marcina (Filozofi, co nad nas uszy lepsze mają...)" 38
+"Do Mikołaja Firleja (Mało na tym, że moje fraszki masz pisane...)" 80
+"Do Mikołaja Mieleckiego (Nie dar jaki kosztowny, ale co przemogę...)" 202
+"Do miłości (Chyba w serce, Miłości, proszę, nie uderzaj...)" 57
+"Do miłości (Gdzie teraz ono jabłko i on klinot drogi...)" 87
+"Do miłości (Matko skrzydlatych Miłości...)" 100
+"Do nieznajomego" 33
+"Do pana (Bóg tylko ludzkie myśli wiedzieć może...)" 197
+"Do paniej (Co usty mówisz, byś w sercu myśliła...)" 70
+"Do paniej (Pani jako nadobna, tak też i uczciwa!)" 89
+"Do Pawełka" 179
+"Do Pawła (Dobra to, Pawle, możesz wierzyć, szkoła...)" 65
+"Do Pawła (Pawle, rzecz pewna, u twego sąsiada...)" 115
+"Do Petryła" 104
+"Do Pluta" 82
+"Do Pryszki" 151
+"Do przyjaciela (Nie frasuj sobie, przyjacielu, głowy...)" 104
+"Do Reiny" 127
+"Do sąsiada" 58
+"Do Stanisława (Co mi Sybilla prorokuje ninie?)" 118
+"Do Stanisława Meglewskiego" 202
+"Do Stanisława (Powiedz mi, gdzie się chowasz, bracie Stanisławie...)" 90
+"Do starosty" 54
+"Do swych rymów" 43
+"Do Wacława Ostroroga" 54
+"Do Wędy" 70
+"Do wojewody (Nie są, wojewodo zacny, czasy po temu...)" 175
+"Do Wojtka (I owszem, miły Wojtku, zjednaj się z tą panią...)" 179
+"Do Zofijej" 109
+"Drugi (Mężu mój, o mój mężu, śmierć nielutościwa)" 152
+"Epitafium dziecięciu (Byłem ojcem niedawno, dziś nie mam nikogo...)" 77
+"Epitafium Erazmowi Kroczewskiemu kuchmistrzowi" 54
+"Epitafium Hannie Kochanowskiej" 144
+"Epitafium Jóstowi Glacowi" 145
+"Epitafium Krysztofowi Sienieńskiemu" 195
+"Epitafium Wojciechowi Kryskiemu" 214
+"Fragmenta albo pozostałe pisma" 27
+"[Fraszki - Dedykacja]" 28
+"Gadka" 86
+"Introductory note" 77
+"Księgi pierwsze" 149
+"Księgi wtóre" 198
+"Ku Muzom" 62
+"Lament II" 170
+"Lament IV" 174
+"Laments" 213
+"Lament V" 28
+"Lament VII" 84
+"Lament X" 104
+"Lament XII" 218
+"Lament XIV" 82
+"Lament XV" 36
+"Lament XVII" 39
+"Małemu wielkiej nadzieje Radziwiłłowi" 198
+"Modlitwa o deszcz" 221
+"Na butnego" 191
+"Na dom w Czarnolesie" 88
+"Na frasowne" 31
+"Na fraszki" 142
+"Nagrobek Adrianowi doktorowi" 162
+"Nagrobek dwiema braciej" 157
+"Nagrobek Hannie Spinkowej od męża" 132
+"Nagrobek koniowi" 204
+"Nagrobek mężowi od żony" 203
+"Nagrobek opiłej babie" 158
+"Nagrobek Piotrowi" 101
+"Nagrobek Stanisławowi Grzepskiemu" 67
+"Nagrobek Stanisławowi Zaklice z Czyżowa" 118
+"Na hardego (Nie bądź mi hardym, chociaś wielkim panem...)" 128
+"Na heretyki" 91
+"Na kogoś" 63
+"Na łakome" 85
+"Na Leliwę Tarnowskich" 74
+"Na lipę (Przypatrz się, gościu, jako on list mój zielony...)" 85
+"Na matematyka" 81
+"Na miernika" 118
+"Na most warszewski" 187
+"Na nieodpowiedną" 25
+"Na niesłownego" 129
+"Na pany" 97
+"Na pijanego" 117
+"Na poduszkę" 126
+"Na pszczoły budziwiskie" 49
+"Na rym nierozmyślny" 215
+"Na Ślasę" 93
+"Na Świętego Ojca" 64
+"Na słup kamienny" 56
+"Na starą" 60
+"Na stryja" 119
+"Na tenże (Nie woła dziś przewoźnik: „Wsiadaj, kto ma wsiadać!)" 147
+"Na toż (Gładkość od ciebie, Wenus, ale nie trwa w mierze...)" 76
+"Na utratne" 148
+"Na zachowanie" 126
+"O Aleksandrzech" 55
+"O błaźnie" 30
+"O chmielu" 81
+"O Doktorze Hiszpanie" 89
+"Odprawa posłów greckich" 210
+"O duszy" 89
+"Ofiara (Pafijej swe zwierciadło Lais poświęciła...)" 35
+"Ofiara (Ten pas Greta, podstarzawszy sobie...)" 71
+"O fraszkach (Fraszki tu niepoważne z statkiem się zmieszały...)" 88
+"O fraszkach (Najdziesz tu fraszkę dobrą, najdziesz złą i śrzednią...)" 147
+"O Gąsce" 174
+"O gospodyniej (Proszono jednej wielkimi prośbami...)" 140
+"O Hannie (Serce mi zbiegło, a nie wiem inaczej...)" 38
+"O Hektorze" 91
+"O Kachnie" 207
+"O kapłanie" 113
+"O kocie" 50
+"O koźle" 160
+"O księdzu" 191
+"O Łazickim a Barzym" 191
+"O liście" 149
+"O Marku" 88
+"O miłości (Głód a praca miłość kazi...)" 158
+"O miłości (Ma już pokój Prometeus, lecz ja miasto niego...)" 27
+"O Necie" 120
+"O nowych fraszkach" 141
+"O prałacie" 152
+"O rozkoszy" 68
+"O Rzymie" 34
+"O śmierci" 145
+"O starym" 107
+"O swych rymiech" 136
+"O tymże (Wczora pił z nami, a dziś go chowamy...)" 143
+"O żywocie ludzkim (Fraszki to wszytko, cokolwiek myślemy...)" 43
+"O zazdrości" 222
+"Pieśń (Czego chcesz od nas, Panie, za Twe hojne dary?)" 154
+"Pieśń III (Dzbanie mój pisany...)" 154
+"Pieśń III (Oko śmiertelne Boga nie widziało...)" 31
+"Pieśń II (Nie ma świat nic trwałego, a to barzo k rzeczy...)" 68
+"Pieśń I (Pewienem tego, a nic sie nie mylę...)" 46
+"Pieśń IV (Kiedy by kogo Bóg był swymi słowy...)" 52
+"Pieśń IV (Złota to strzała i krom wszego jadu była...)" 74
+"Pieśń IX (Kto mi wiary dać nie chce, daj ją oku swemu...)" 38
+"Pieśń świętojańska o Sobótce" 67
+"Pieśń VI (Co by ty, urodziwa Hanno, na to dała...)" 41
+"Pieśń VIII (Gdzieśkolwiek jest, Bożeć pośli dobrą godzinę...)" 171
+"Pieśń VIII (Nie frasuj sobie, Mikołaju, głowy...)" 92
+"Pieśń VII (Trudna rada w tej mierze, przyjdzie sie rozjechać...)" 119
+"Pieśń V (Kto ma swego chleba...)" 162
+"Pieśń V (Wieczna sromota i nienagrodzona...)" 179
+"Pieśń XIII (Panu dzięki oddawajmy...)" 44
+"Pieśń XII (Nie masz, i po drugi raz nie masz wątpliwości...)" 166
+"Pieśń XI (Stateczny umysł pamiętaj zachować...)" 189
+"Pieśń XIV (Patrzaj, jako śnieg po górach sie bieli...)" 125
+"Pieśń XIX (Jest kto, co by wzgardziwszy te doczesne rzeczy...)" 105
+"Pieśń X (Juno, porzuć swój gniew długi...)" 27
+"Pieśń X (Może kto ręką sławy dostać w boju...)" 62
+"Pieśń XVIII (Ucieszna lutni, w której słodkie strony)" 182
+"Pieśń XVII (Słońce już padło, ciemna noc nadchodzi...)" 205
+"Pieśń XVI (Nic po tych zbytnich potrawach, nic po tym...)" 221
+"Pieśń XV (Nie zawżdy Apollo strzela)" 186
+"Pieśń XXIII (Nie zawżdy, piękna Zofija...)" 85
+"Pieśń XXII (Rozumie mój, prózno sie masz frasować...)" 110
+"Pieśń XXI (Ty spisz, a ja sam na dworze...)" 67
+"Pieśń XXIV (Zegar, słyszę, wybija...)" 190
+"Pieśń XX (Miło szaleć, kiedy czas po temu...)" 172
+"Pieśni" 180
+"[Pieśni - nota edytorska]" 136
+"Raki" 43
+"Song XXV" 197
+"Temuż (By Bóg duszę za duszę chciał od nas przyjmować...)" 177
+"Thrène I" 39
+"Thrène III" 85
+"Thrène IX" 173
+"[Thrènes - Introduction]" 207
+"Thrène V" 111
+"Thrène VII" 87
+"Thrène X" 219
+"Thrène XII" 53
+"Thrène XIV" 87
+"Thrène XV" 144
+"Thrène XVII" 89
+"Threnodie I" 34
+"Threnodie III" 171
+"Threnodie  IX" 88
+"Threnodie V" 178
+"Threnodie VII" 80
+"Threnodie X" 213
+"Threnodie XII" 195
+"Threnodie XIV" 178
+"Threnodie XV" 210
+"Threnodie XVII" 164
+"Tren I" 100
+"Tren III" 209
+"Tren IX" 205
+"Tren VI" 64
+"Tren VIII" 35
+"Tren XI" 111
+"Tren XIII" 106
+"Tren XIX albo Sen" 139
+"Tren XVI" 103
+"Tren XVIII" 97
+"[Treny - Motto i dedykacja]" 178
+"Źle dopijać się przyjaciela" 57
+"Z Anakreonta (Ja chcę śpiewać krwawe boje...)" 68
+"Z Anakreonta (Nie dbałem nigdy o złoto...)" 130
+"Z Anakreonta (Próżno się mam odejmować...)" 184
+"Za pijanicami" 72
+"Z greckiego (Ani w młodej rozkoszy, ani w starej widzę...)" 222
+"Z greckiego (Nie sądź mię za umarłą, gościu mój miły...)" 58
+"Z greckiego (Nie znam się ku tym łupom: kto li to, szalony...)" 186
+"Z greckiego (W tym grobie piękna Timas leży pogrzebiona...)" 120
+"Psalm II" 180
+"Psalm IV" 186
+"Psalmodia polska" 104
+"Psalm VI" 44
+"Psalm VIII" 61
+"Psalm XI" 222
+"Psalm XIII" 219
+"Psalm XIX" 55
+"Psalm XVI" 133
+"Psalm XVIII" 121
+"Psalm XXI" 86
+"Psalm XXIII" 191
+"Psalm XXIX" 177
+"Psalm XXVI" 155
+"Psalm XXVIII" 72
+"Psalm XXXI" 165
+"Psalm XXXIII" 86
+"Psalm XXXV" 70
+"Ach, ta przecudna, cicha łąka..." 128
+"Bajka o świerszczu" 171
+"Bohdanowi Zaleskiemu" 181
+"Chusta Weroniki" 156
+"Co mówią drzewa?" 63
+"Co robią ptaszki" 196
+"Co Staś pisze?" 162
+"Czcigodnemu J. I. Kraszewskiemu" 99
+"Damnata" 65
+"Deszczyk" 134
+"Dla kogo kwiaty" 184
+"Dobranoc" 112
+"Dożynki" 51
+"Dwór Zosi" 34
+"Dziadek (Oj ten mały Żuczek...)" 134
+"Dzieci na wsi i w mieście" 159
+"„Ergo erravi”" 62
+"Filuś-śmiałek" 66
+"Fragmenty" 204
+"Gąski" 168
+"Gęsiarek sierota" 34
+"Gra w lisa" 66
+"Grzyby" 174
+"Hypatia" 139
+"II (W pole, w pole, po padole...)" 188
+" I (Umarłych płaczę...)" 192
+"IV (I wiosna przyjdzie i kwiat rozwinie...)" 207
+"Jak Mańcia czyta książeczkę" 93
+"Jak się zowie" 168
+"Jak to będzie?" 84
+"Jak to w naszym dworze" 79
+"Janek wybiera się w drogę" 224
+"Jaskółeczka (Jaskółeczko. Jaskółeczko...)" 142
+"Jaskółka (Czarna jaskółeczka...)" 128
+"Jesienią" 86
+"Każdy domku swego strzeże" 151
+"Komedia przy myciu" 40
+"Kotek Psotek" 192
+"(Kto w mogiłę wrasta głazem...)" 181
+"Kukułeczka" 54
+"Lirnikowi na „via Montebello”" 58
+"Maciuś" 145
+"Maik (Co tu gwaru! Co tu krzyku!)" 179
+"Mały trębacz" 142
+"Mendel Gdański" 137
+"Miraże" 198
+"Muchy samochwały" 158
+"Nad rzeką" 190
+"Na fujarce" 124
+"Na Kurhanie" 214
+"Na łące" 53
+"Na obczyźnie" 99
+"Na pastwisku" 166
+"Na rozstaju" 39
+"Nasza czarna jaskółeczka" 173
+"Nasza książeczka" 72
+"Nasz domek" 137
+"„Nasze Dziady”" 54
+"Nasz koniczek" 216
+"Nasz wąsatek" 190
+"Na zjazd śpiewaczy w Częstochowie" 51
+"O co się modlić" 68
+"Odlot" 118
+"O Janku Wędrowniczku" 141
+"O Lodniku" 28
+"Owczarek" 42
+"Pamięci Ignacego Domejki" 176
+"Pan Franciszek" 208
+"Panna Micia na osiołku" 30
+"Parasol" 109
+"Piast" 127
+"Pieśni i piosenki" 165
+"Piosenka o wilczku" 171
+"Piosenki majowe" 130
+"Pobudka wiosny" 41
+"Po grudce ziemi" 194
+"Poranek" 178
+"Po sześciu wiekach" 34
+"Powitanie roku" 196
+"Powrót ptaków" 193
+"Prośba Filusia" 186
+"Przygoda nieuka" 47
+"Przygoda w kuchni" 169
+"Przy mrowisku" 68
+"Pszczółki" 173
+"Rada" 205
+"Rok stary" 81
+"Rzeka" 88
+"Śmigus" 214
+"Śnieżyca" 161
+"Świerszczyk" 67
+"Sierotki (Mamo droga! Mamo miła!)" 182
+"Sieroto!" 67
+"Skowronek" 45
+"Sny" 60
+"Sokół" 197
+"Stefek Burczymucha" 115
+"Taniec" 153
+"Tęczowy duszek" 36
+"Trzewiczki Józia" 153
+"Urbanowa" 215
+"Vesalius" 115
+"VII. Warszawa" 191
+"Wesele w maju" 127
+"Wianki" 61
+"Wieczorny pacierz" 48
+"Wierzba" 33
+"W obronie Jaśka" 109
+"W polu (I czego im braknie?)" 160
+"W rocznicę śmierci Zygmunta Krasińskiego" 88
+"Wstań o dziecię..." 217
+"W trzejkrólowy wieczór" 142
+"W zaduszny dzień" 193
+"Żabka Helusi" 93
+"Żuczek" 118
+"Zajączek" 68
+"Zamiary Stasia" 217
+"Zima do poety" 107
+"Zła zima" 204
+"Zmarźlak" 36
+"Zosia na wsi" 67
+"Zwierzenia Janki" 33
+"Barwy, głosy, wonie" 184
+"Lilia" 133
+"Pod baldachimem drzew" 30
+"Prządka" 215
+"Która przyjdzie" 135
+"Świetlanej pamięci brata mojego Stanisława poświęcam" 192
+"Węglem smutku i zgryzoty" 113
+"Bezwstydnie krótkie" 70
+"Dzieci ulicy" 171
+"Dziecko w rodzinie" 89
+"Józki, Jaśki i Franki" 181
+"Kiedy znów będę mały" 106
+"Król Maciuś na wyspie bezludnej" 213
+"Ludzie są dobrzy" 108
+"Mośki, Joski i Srule" 190
+"Pedagogika żartobliwa" 74
+"Refleksje" 27
+"Senat szaleńców; Proza poetycka; Utwory radiowe" 96
+"Trzy wyprawy Herszka" 50
+"Baśń mojej piastunki" 62
+"Czem chata bogata, tem rada" 203
+"Do F.P." 127
+"Dwie miłości" 183
+"Figlik mojego dziadka" 72
+"Miłość" 86
+"Postrzyżyny" 107
+"Przednówek" 169
+"Sierota" 139
+"Wicinnik na wiosnę" 222
+"W imionniku" 82
+"Jobsjada" 121
+"Woyciech Zdarzyński, życie i przypadki swoje opisuiący" 191
+"Abuzei i Tair" 223
+"Antymonachomachia" 171
+"Bajki i przypowieści" 142
+"Baran dany na ofiarę" 66
+"Bogacz i żebrak" 97
+"Brytan w obroży" 31
+"Chart i kotka" 64
+"Chłop i Jowisz" 175
+"Chmiel" 67
+"Część druga" 176
+"Człowiek i gołębie" 183
+"Człowiek i wilk" 139
+"Człowiek i zwierciadła" 49
+"Dąb i dynia" 164
+"Daremna praca" 208
+"Dewotka" 146
+"Diament i kryształ" 143
+"Do dzieci" 170
+"Doktor" 72
+"Drzewo" 54
+"Dwa psy" 148
+"Dziecię i ojciec" 59
+"Dzwon" 38
+"Fiałek i trawa" 200
+"Filozof" 31
+"Filozof i chłop" 194
+"Furman i motyl" 116
+"Góra i dolina" 28
+"Gospodarz i drzewa" 205
+"Groch przy drodze" 148
+"Hymn do miłości ojczyzny (Święta miłości kochanej ojczyzny...)" 63
+"Jaś" 121
+"Jodła i jabłoń" 224
+"Kałamarz i pióro" 120
+"Klatki" 154
+"Komar" 94
+"Koń i wielbłąd" 81
+"Koniec" 64
+"Konie i furman" 190
+"Kot i kogut" 62
+"Kruk i lis" 166
+"Kuglarze" 118
+"Łakomy i zazdrosny" 197
+"Lew i osieł" 140
+"Lew i zwierzęta II" 116
+"Lew pokorny" 103
+"Lis i osieł" 129
+"Lis młody i stary" 111
+"Lwica i maciora" 142
+"Mądry i głupi II" 195
+"Małżeństwo" 122
+"Malarze" 215
+"Matedory" 67
+"Młot z kowadłem" 202
+"Monachomachia" 197
+"Mysz i kot" 29
+"Nadzieja i bojaźń" 171
+"Nocni stróże" 40
+"Ocean i Tagus rzeka" 212
+"Oracze i Jowisz" 207
+"Orzeł i sowa" 218
+"Osieł i wół" 113
+"Owieczka i pasterz" 188
+"Pan i kotka" 25
+"Pan niewart sługi" 164
+"Pasterz i morze" 61
+"Paw i orzeł" 146
+"Pijak" 148
+"Platon" 70
+"Pochwała głupstwa" 101
+"Pochwały milczenia" 77
+"Podróżny" 154
+"Podróżny i kaleka" 195
+"Potok i rzeka" 139
+"Prawda, satyryk i panegirysta" 191
+"Przyjaciel" 127
+"Pszczółka" 28
+"Pszczoły" 69
+"Ptaki i osieł" 35
+"Puchacze" 41
+"Rumak i źrebiec" 190
+"Rzepa" 147
+"Sąsiedztwo" 168
+"Skąpy" 65
+"Skowronek" 80
+"Słońce i żaby" 204
+"Słoń i pszczoła" 180
+"Słowik i szczygieł" 32
+"Snycerz i statua" 217
+"Strumyk i fontanny" 124
+"Sułtan w piekle" 185
+"Synogarlica" 122
+"Szczep winny" 222
+"Szczur i kot" 73
+"Szkapa i rumak" 194
+"Talar i czerwony złoty" 141
+"Trzoda" 169
+"Umbrelka" 200
+"Wierzba i lipa" 182
+"Wilczki" 58
+"Wilk i owce" 130
+"Wilk pokutujący" 116
+"Wino szampańskie" 148
+"Wół minister" 179
+"Woły krnąbrne" 162
+"Wrobel" 183
+"Wstęp do bajek i przypowieści" 77
+"Wyrok" 163
+"Wyżeł i brytan" 115
+"Wziętość" 47
+"Żaby i bocian" 37
+"Żona modna" 121
+"Zajączek" 89
+"Złość ukryta i jawna" 90
+"Zwierzęta i niedźwiedź" 138
+"Nie-Boska komedia" 220
+"Resurrecturis" 147
+"Anafielas. Pieśń III. Witoldowe boje" 49
+"Anafielas. Pieśń I. Witolorauda" 35
+"Brühl" 175
+"Brühl, tom pierwszy" 25
+"Capreä i Roma" 120
+"Capreä i Roma, tom pierwszy" 169
+"Chore dusze" 126
+"Chore dusze, tom II" 135
+"Djabeł, tom czwarty" 188
+"Djabeł, tom pierwszy" 56
+"Dwie królowe" 191
+"Dwie królowe, tom pierwszy" 57
+"Dziad i baba" 43
+"Głupi Maciuś" 199
+"Historya prawdziwa o Petrku Właście palatynie, którego zwano Duninem" 34
+"Hrabina Cosel, tom drugi" 101
+"Infantka" 199
+"Infantka, tom pierwszy" 107
+"Król chłopów" 153
+"Kunigas" 67
+"Kwiat paproci" 59
+"Litwa za Witolda" 216
+"Macocha, tom drugi" 72
+"Macocha, tom trzeci" 95
+"Mitręga" 60
+"Ostrożnie z ogniem" 95
+"Profesor Milczek" 173
+"Rzym za Nerona" 53
+"Stara baśń, tom drugi" 160
+"Stara baśń, tom trzeci" 192
+"Strzemieńczyk, tom drugi" 144
+"Syn Jazdona" 68
+"Syn Jazdona, tom pierwszy" 74
+"Szpieg" 82
+"Tomko Prawdzic" 68
+"Waligóra" 220
+"Waligóra, tom pierwszy" 131
+"W oknie" 205
+"Z dziennika starego dziada" 68
+"Kas kaltas?" 167
+"Mūsų Ponai" 194
+"Ugnis negesinama išsiplečia" 207
+"Artojaus skundas" 110
+"Gražu, gražiau ir gražiausiai" 66
+"Laisvos valandos" 189
+"Lietuvos tilto atsiminimai" 43
+"Mindaugas" 91
+"Šiaučius ir Gizelis" 205
+"Tautystės pamatas" 69
+"Varpas" 106
+"Žvirbliai" 140
+"Niebezpieczne związki" 222
+"Niebezpieczne związki, tom pierwszy" 182
+"Tętniące serce" 46
+"Amor i Faun" 222
+"Eksperyment" 154
+"II. Jiv-Atma" 51
+"IV. Kama-Rupa" 106
+"Lenora" 30
+"Miranda" 212
+"Nowe mieszkanie" 62
+"[Powieści fantastyczne] Przedmowa" 91
+"Rozaura" 46
+"Sen" 43
+"Swemu pokoleniu" 181
+"VII. Atma" 81
+"W czwartym wymiarze" 118
+"Z rozmyślań" 160
+"Nokturn" 198
+"Z «Nowenny»" 30
+"Deszcz letni" 58
+"Pieśń Ewy (fragmenty)" 157
+"Alcabon" 35
+"Anioł" 173
+"Ballada o dumnym rycerzu" 74
+"Baśń o pięknej Parysadzie i o ptaku Bulbulezarze" 222
+"Betleem" 38
+"Boże, pełen w niebie chwały" 188
+"Ćmy" 133
+"Ciało me, wklęte" 123
+"Com uczynił..." 166
+"[Co w mgłach czyni żagiel na głębinie?...]" 210
+"Czasami mojej ślepej posłuszny ochocie..." 156
+"Dokoła klombu" 84
+"Dreszcze nasze u warg się spotkały" 127
+"Dusza w niebiosach" 57
+"Dwoje ludzieńków" 53
+"Dziejba leśna" 147
+"Dziejba leśna, II" 62
+"Dziejba leśna, IV" 156
+"Dzień skrzydlaty" 85
+"Dziewczyna przed zwierciadłem" 77
+"Eliasz" 178
+"Goryl" 33
+"Idzie zmierzch" 100
+"Jak niewiele ma znaków" 161
+"Jan Tajemnik" 92
+"(Już czas ukochać w sadzie...)" 104
+"Klęska" 93
+"Klechdy sezamowe" 86
+"Kocmołuch" 55
+"Krajobraz utracony" 146
+"[Kwapiły się burze...]" 178
+"Lubię szeptać ci słowa" 129
+"Magda" 200
+"Marcin Swoboda" 35
+"Matysek" 155
+"Miłość stroskana" 52
+"(Módlmy się śród drzew...)" 54
+"Mrok na schodach..." 136
+"Namowa" 64
+"Na poddaszu" 64
+"Niegdyś dom mój ochoczy" 138
+"Niewidzialni" 121
+"Nieznana podróż Sindbada Żeglarza" 202
+"Nocą" 203
+"Oczy w niebiosach" 160
+"Opowiadanie Króla Wysp Hebanowych" 151
+"Pan Błyszczyński" 142
+"Pantera" 210
+"Pierwsza schadzka" 132
+"(Płomienny uśmiech nietrwałych zórz...)" 175
+"Po ciemku" 81
+"Po deszczu" 208
+"Poematy zazdrosne" 46
+"Pogrzeb" 212
+"Południe" 124
+"Poranek" 116
+"Postacie" 182
+"Powieść o rozumnej dziewczynie" 184
+"Powrót" 217
+"Powrót" 175
+"Pozorzanie" 159
+"Przechodzień" 107
+"Przedwieczerz" 27
+"Pszczoły" 211
+"Rok nieistnienia" 175
+"Rozmowa" 42
+"Śledzą nas" 122
+"Śmierć wtóra" 60
+"Śni się lasom - las..." 141
+"Samotność" 121
+"Schadzka spóźniona" 28
+"Sen wiejski" 66
+"Skończoność" 194
+"Słowa do pieśni bez słów" 97
+"Spojrzystość" 93
+"Spotykam go codziennie" 181
+"Strumień" 56
+"Tajemnica" 138
+"Tam na obczyźnie" 151
+"Tamten" 31
+"Tarcza" 53
+"Trzy róże" 113
+"Tu jestem" 42
+"Ty pierwiej mgły dosięgasz" 109
+"Urszula Kochanowska" 192
+"(Uwiędły sad...)" 123
+"Warkocz" 125
+"W chmur odbiciu (cykl)" 182
+"Wczesnym rankiem" 51
+"Wieczór" 104
+"Wieczory" 154
+"Wiedza" 42
+"Wiersz księżycowy" 183
+"W lesie" 48
+"W nicość śniąca się droga" 205
+"Wół wiosnowaty" 107
+"W pałacu królewny śpiącej" 218
+"W śniegu" 144
+"W trwodze" 125
+"Wyszło z boru" 31
+"Wyznanie spóźnione" 195
+"Zachód" 78
+"Zaklęcie" 57
+"Zazdrośnicy" 211
+"Z dłońmi tak splecionymi..." 28
+"Z lat dziecięcych" 80
+"Zmierzch" 212
+"Zmierzchun" 89
+"Zwierzyniec" 103
+"(Zwoływali się surmą na wrzawę-zabawę...)" 121
+"Laokoon" 74
+"Nathan der Weise" 130
+"Elegia" 146
+"Niańka" 180
+"Przeszłość mówi" 88
+"Wcielające się idee czasu" 117
+"Anioł żalu" 178
+"Arka" 134
+"Colas Breugnon" 103
+"Do Anny" 110
+"Do młodzieńca z obrazu Maas'a" 195
+"Druga Ojczyzna" 119
+"Druga ojczyzna (tomik)" 112
+"Dzieciństwo" 86
+"Gołębie w kościele Św. Aleksandra" 109
+"Gorzkie wióry" 145
+"Gusła, I" 80
+"Gusła, III" 97
+"Gusła nad źródłem" 72
+"[Jak kochankowie...]" 31
+"Jeździec" 166
+"Jurgowska karczma" 123
+"Koguty" 49
+"[Kołysanka jodłowa - Dedykacja]" 127
+"Kołysanka jodłowa, II" 88
+"Kołysanka jodłowa, Przekłady" 178
+"Koncha, Perły i Słowik" 98
+"Kroki Komandora" 144
+"Kuszenie" 81
+"Lisy" 103
+"Miłość doskonała" 61
+"Morze i wino" 212
+"Muza" 109
+" Muzyka poranna" 220
+"Na lipę czarnoleską" 193
+"Niebo i ziemia" 135
+"Odpowiedź" 91
+"Ostatni błysk zachodu gasł..." 222
+"Pejzaż" 115
+"Piosenka do Warszawy" 85
+"Poeci" 218
+"Próby" 108
+"Przekrój fantastyczny" 94
+"Ptaszki św. Franciszka" 183
+"Romantyczność" 123
+"Święto zwycięstwa" 213
+"Samotność twoją i twoje zachody..." 99
+"Sen" 30
+"Skazańcy" 109
+"Słowacki" 134
+"Smutna wiosna" 217
+"[Uczę się ciebie, człowieku...]" 38
+"Victoria" 107
+"Wakacje" 202
+"Wieś" 198
+"Zachęta do ucieczki" 60
+"Zamiejskie ogrody" 175
+"Za żelazną bramą" 39
+"Marcowy dzień" 218
+"Piękne dni czerwca" 208
+"W mieście wielkim" 123
+"Idź cicho twą drogą, idź niemo przez świat" 103
+"Skarga" 27
+"Strumień" 107
+"Piosenka (O mroku leśny...)" 74
+"Jaunoji Lietuva" 51
+"Maria. Poème d'Ukraine" 131
+"Maria. Ukrainische Erzählung in zwei Gesangen" 106
+"Crime and Custom in Savage Society" 59
+"Fajka" 138
+"Przyszłe zjawisko" 131
+"Wachlarz panny Mallarmé" 32
+"Zjawa" 222
+"Baronowa" 184
+"Horla" 212
+"Odkrycie" 135
+"Ojciec Amable" 220
+"Przyjaciel patience" 103
+"Sposób Rogera" 168
+"Dobry deszcz" 216
+"Ama" 58
+"Ananke" 64
+"Bądź zdrowa!..." 117
+"Białe róże krwi" 165
+"[Białe róże krwi - motto]" 174
+"Czarne Xięstwo" 202
+"Droga Mleczna" 65
+"Dusza w czyścu" 158
+"Głębiny duch" 88
+"[In loco tormentorum - motto]" 98
+"(Jaki lekki — zwinny...)" 166
+"(Jesienne lasy...)" 192
+"Już świt" 162
+"Kallypso" 129
+"Kochankowie bogów" 63
+"Korsarz" 63
+"Krzyż" 104
+"Lucifer" 97
+"Madonna Dolorosa" 169
+"Minotaur" 61
+"Morietur stella" 176
+"Natchnienie" 39
+"Noc majowa" 67
+"Nokturn" 152
+"O nocy cicha..." 99
+"Palmy" 90
+"Poją mnie wrzosy..." 205
+"Przed burzą" 199
+"Reinkarnacya" 26
+"Samobójca" 210
+"Sen" 220
+"(Stanąć tak nad morzem...)" 141
+"Strąceni z niebiosów" 217
+"Stryga" 105
+"Tak jestem smętny..." 36
+"Umarły świat" 204
+"Widma" 38
+"Witeź Włast" 37
+"W mroku gwiazd" 60
+"W pośród Raju" 195
+"Wyspa Gorgon" 202
+"Zamek duszy" 99
+"Zofia Casanova" 205
+"Ach, już i w rodzicielskim domu..." 168
+"Ajudah" 62
+"Ałuszta w dzień" 101
+"Alušta" 107
+"Audra" 198
+"Bachčisarajus naktį" 151
+"Bajdary" 29
+"Bakczysaraj w nocy" 50
+"Ballady i romanse" 40
+"Błogosławieństwo (z Petrarki)" 107
+"Burza" 63
+"Chłop i żmija" 209
+"Czaty" 131
+"Danaidy" 121
+"Dobry wieczór" 138
+"Do D... D..." 58
+"Do D. D. (Wizyta)" 104
+"Do Laury" 116
+"Do Marii P..." 151
+"Do Maryi Szymanowskiej" 55
+"Do mojego Cicerone" 71
+"Do Niemna" 144
+"Do przyjaciół Moskali" 184
+"Droga do Rosji" 118
+"Dudarz" 36
+"Dziady" 131
+"Dziady, część III" 194
+"Dziady. Poema" 222
+"Dzień dobry" 189
+"Farys" 165
+"Góra Kikineis" 43
+"Grażyna" 151
+"Haremo kapinės" 89
+"Keleivis" 152
+"Kikineiso kalnas" 204
+"Konradas Valenrodas" 110
+"Koza, kózka i wilk" 202
+"Księgi narodu polskiego i pielgrzymstwa polskiego" 104
+"Liryki lozańskie" 71
+"Mareivystė" 86
+"Mówię z sobą..." 211
+"Nad wodą wielką i czystą..." 107
+"Niepewność" 113
+"Oda do młodości" 215
+"Panicz i dziewczyna" 147
+"Pan Tadeusz, czyli ostatni zajazd na Litwie" 217
+"Pielgrzym" 129
+"Pieśń filaretów" 106
+"Pomnik Piotra Wielkiego" 56
+"Popas w Upicie" 84
+"Potockaitės karstas" 143
+"Pożegnanie (Do D. D.)" 178
+"Przegląd wojska" 212
+"Ranek i wieczór" 145
+"Rękawiczka" 101
+"Renegat" 76
+"Romantyczność" 27
+"Rybka" 69
+"Śniła się zima..." 105
+"Świtezianka" 39
+"Snuć miłość..." 74
+"[Sonety krymskie - Motto i dedykacja]" 121
+"[Sonety odeskie - Motto]" 224
+"Strzelec" 189
+"To My Cicerone" 161
+"Trzech Budrysów" 142
+"Uciec z duszą na listek" 84
+"Uncertainty" 175
+"Vaidilos apysaka" 58
+"Vilija" 201
+"Widzenie" 159
+"W imionniku C. S." 213
+"Żeglarz" 71
+"Żywila" 159
+"Zima miejska" 197
+"Do spółobywateli" 27
+"Chleb i woda" 111
+"Drogowskaz" 153
+"Hotel pod ideałem" 37
+"Nim minie czar" 44
+"Palma" 128
+"Pułapka" 81
+"Stary dom" 200
+"Ulica Dziwna" 179
+"Zamknięte" 94
+"O poprawie Rzeczypospolitej" 99
+"Podróże Beniamina Trzeciego" 32
+"Lekarz mimo woli" 140
+"Mizantrop" 51
+"Świętoszek" 37
+"Szelmostwa Skapena" 178
+"Uczone białogłowy" 31
+"Próby. Księga druga" 124
+"Próby. Księga trzecia" 94
+"O duchu praw" 172
+"Wilcze gniazdo" 101
+"(Bluszcze! Jakimi zwisacie wdziękiem...)" 50
+"(Gwałcąc nagle tych dżdżystych dni...)" 162
+"(Lubię, srebrny księżycu...)" 207
+"Młoda dziewczyna mówi" 128
+"(Obłoki, ukąpane w jasnej dnia pogodzie...)" 125
+"(Samotny, zadumany...)" 83
+"Cuda miłości (Karmię frasunkiem miłość i myśleniem...)" 61
+"Do motyla" 95
+"Do swoich książek (Hola! Już dosyć, dosyć, moja księgo!)" 178
+"Fickle" 113
+"Na krzyżyk na piersiach jednej panny" 51
+"Niestatek (Oczy są ogień, czoło jest zwierciadłem...)" 111
+"Pszczoła w bursztynie" 47
+"Nie módlcie się!" 123
+"Kaprys" 112
+"Spowiedź dziecięcia wieku" 34
+"Do Anny" 65
+"Do Seweryna" 148
+"Krótkość żywota" 60
+"Marność" 220
+"Nagrobek Jerzemu Hołowni, słudze i towarzyszowi husarskiemu tegoż Księcia, podczas pogromu rokoszanów zabitemu" 108
+"Na toż" 158
+"Usiłowanie" 121
+"Zła żona" 136
+"Chrzest" 122
+"Z pomroku czarnych nocy chust..." 33
+"Przygody młodych Bastablów" 45
+"Branka" 39
+"Morituris" 210
+"Richard Wagner in Bayreuth" 133
+"Tako rzecze Zaratustra" 110
+"A cóż z tą Dzieciną..." 160
+"Anioł pasterzom mówił" 130
+"Bracia, patrzcie jeno..." 171
+"Bywaj dziewczę zdrowe..." 131
+"Dzisiaj w Betlejem" 65
+"Gdy się Chrystus rodzi..." 37
+"Hej w dzień narodzenia..." 95
+"Idzie żołnierz borem, lasem (Pieśń o żołnierzu tułaczu)" 65
+"Jezus malusieńki" 92
+"Mazurek młodzieży" 38
+"Mędrcy świata..." 32
+"Oj Maluśki, Maluśki..." 43
+"Pieśń pogrzebowa poległemu rycerzowi" 58
+"Pójdźmy wszyscy do stajenki..." 51
+"Polonez Kościuszki" 54
+"Przybieżeli do Betlejem..." 193
+"Sentencje ojców" 187
+"Tryumfy Króla niebieskiego" 90
+"W żłobie leży..." 83
+"Z Narodzenia Pana..." 146
+"Aerumnarum plenus" 83
+"Białe kwiaty" 206
+"Buntowniki, czyli stronnictwo-wywrotu" 106
+"Cenzor-krytyk" 161
+"Coś ty Atenom zrobił, Sokratesie" 47
+"Czasy" 130
+"(Daj mi wstążkę błękitną...)" 83
+"Epos - nasza" 154
+"Fraszka (!) [I]" 125
+"Historyk" 92
+"Krzyż i dziecko" 36
+"Menego" 173
+"Moja piosnka" 199
+"My Little Song (II)" 211
+"Nerwy" 208
+"Ostatni despotyzm" 186
+"Pierścień Wielkiej Damy" 208
+"[Powiedz im, że duch odbrzmiał myśli wiecznej]" 113
+"Promethidion" 44
+"Rzecz o wolności słowa" 124
+"Słodycz" 148
+"Za kulisami" 42
+"Apoteoza" 68
+"Morskie oko" 190
+"Tatry" 36
+"Trzej muszkieterowie" 35
+"Trzej muszkieterowie, tom pierwszy" 74
+"Biała Dama" 32
+"Czarownica" 191
+"Emigrant" 139
+"Historya Stefanka, co niechciał jeść obiadu" 199
+"Kościół Panny Marii" 170
+"Krakowiaczek Skuba" 138
+"Legendy warszawskie" 124
+"Napowietrzna podróż Frania próżniaka" 128
+"O Jasiu Dręczycielu" 102
+"O Józiu Gapicielu" 161
+"O panu Kręcickim i o smutnym jego wypadku" 154
+"Piaskarz" 57
+"Przewoźnik" 202
+"Sierotka" 147
+"Syrena" 50
+"Szopka" 213
+"Twardowski" 91
+"Żak" 49
+"Złota kaczka" 212
+"Chłop na łany wyszedł" 27
+"Gody" 27
+"Nad urwiskiem (I)" 134
+"Niedowiarek" 74
+"Piekiełko" 122
+"Płanety" 116
+"Po omacku" 88
+"Przekleństwo" 190
+"Wilija" 86
+"Ascetka" 122
+"Autobiografia w listach" 221
+"Bracia" 31
+"Cicho, cicho na leśnej polanie..." 95
+"Co mówił stary klon?" 133
+"Czy pamiętasz?" 167
+"Dobra pani" 196
+"Dymy" 73
+"Dziwna historia" 28
+"Gdzie szczęście?" 120
+"Gloria victis" 54
+"Hekuba" 46
+"Jędza" 74
+"Julianka" 78
+"Kiedy u nas o zmroku..." 218
+"Kramarz" 157
+"Kto winien?" 156
+"Magon" 79
+"Moment" 205
+"Nad Niemnem" 70
+"Nad Niemnem, tom pierwszy" 136
+"Obrazek z lat głodowych" 158
+"Ogniwa" 221
+"O rycerzu miłującym" 27
+"Pani Dudkowa" 135
+"Panna Antonina" 44
+"Patryotyzm i kosmopolityzm" 30
+"Początek powieści" 65
+"Porcelanka" 171
+"Rotszyldówna" 222
+"Šunadvokatis" 106
+"Sielanka nieróżowa" 100
+"Siteczko" 129
+"Syn stolarza" 77
+"Szczęśliwa" 47
+"Wesele Wiesiołka" 54
+"W grobie etruskim" 160
+"Wiedźma" 25
+"W klatce" 197
+"Wśród kwiatów" 71
+"Że raz jeszcze..." 216
+"Zagadka" 213
+"Złota nitka" 45
+"Z myśli wieczornych" 110
+"Z pożogi" 51
+"Zwierzęta, ludzie, bogowie" 70
+"Bohaterski miś" 130
+"Menuet" 70
+"Szum fali" 47
+"W starym parku" 219
+"Sztuka kochania" 219
+"Myśli" 73
+"Pamiętniki" 170
+"Aeroplan" 149
+"Barwy narodowe" 39
+"Bezpieczna rodzina" 113
+"Biały koń w Rabat" 188
+"Ból fizyczny" 216
+"Ćma" 134
+"Ciało szczęścia" 81
+"Cień babki" 152
+"Czas krawiec kulawy" 80
+"Dary kochanków" 78
+"Do mięsożerców" 87
+"excentrycy" 50
+"Film amerykański" 165
+"Fotografia" 44
+"Grad" 213
+"Heliotrop" 185
+"Ja" 151
+"Kamienice" 142
+"Kobieta-Ikar" 67
+"Kobieta w morzu" 110
+"Krokusy" 105
+"Kto chce, bym go kochała" 135
+"La Précieuse" 110
+"Lenartowicz" 59
+"Listy" 57
+"Marina" 171
+"miss ameryka" 164
+"motyl" 181
+"Najpiękniejszy sen" 174
+"Niebo a kapelusze" 150
+"O biskupie fiołkowym" 141
+"Owad ludzki" 74
+"Pogrzeb infantki" 209
+"Potwór" 152
+"Reforma słów" 43
+"Róże dla Safony" 107
+"Rok pracy serca" 116
+"Śpiąca załoga" 179
+"Słonecznik" 82
+"Starość" 155
+"Stwórca" 173
+"Szarotka" 59
+"Tancerka" 200
+"trzeba chodzić w masce" 197
+"Uskrzydlone słowa" 35
+"Wierzbie naszej" 172
+"w sieci" 85
+"zaklinacze węży" 81
+"Opowiadania chasydzkie i ludowe" 175
+"O świcie" 120
+"Przysięga" 108
+"Warszawa" 103
+"Keidošių Onutė" 52
+"Lietuviai amžių glūdumuose" 142
+"Oda IV" 48
+"Oda XXI" 169
+"Pożegnanie Rzymu" 104
+"Obrona Sokratesa" 51
+"Berenice" 127
+"Diabeł na wieży" 101
+"Król Dżumiec" 136
+"Metzengerstein" 172
+"Prawdziwy opis wypadku z p. Waldemarem" 186
+"Serce oskarżycielem" 33
+"William Wilson" 71
+"Bracia! Rocznica, więc po zwyczaju" 129
+"(Leci liście z drzewa...)" 170
+"Piękna nasza Polska cała..." 85
+"Sygnał" 207
+"Bespieczeństwo drabskie" 180
+"Cudzoziemskie ćwiczenia" 52
+"Dla ścieżki drogi nie opuszczaj" 68
+"Miła jest różność w rzeczach" 213
+"Na urząd podczaszego" 167
+"Nie mijaj murowanego komina" 86
+"Nie za nas to powstało" 66
+"Pan Kurek pannę Maglownicę" 65
+"Piłę ciskać" 81
+"Układanka" 111
+"Sodoma i Gomora, część druga, tom drugi" 46
+"Sodoma i Gomora, część druga, tom trzeci" 91
+"Strona Guermantes" 201
+"Strona Guermantes, część pierwsza, tom drugi" 146
+"Utracona" 209
+"Uwięziona, tom drugi" 151
+"W cieniu zakwitających dziewcząt" 25
+"W cieniu zakwitających dziewcząt, tom pierwszy" 163
+"W stronę Swanna" 165
+"Antek" 65
+"Dziwna historia" 171
+"Emancypantki, tom drugi" 88
+"Faraon" 71
+"Faraon, tom pierwszy" 113
+"Grzechy dzieciństwa" 199
+"Katarynka" 136
+"Lalka, tom drugi" 213
+"Lokator poddasza" 184
+"Na Saskiej Kępie" 147
+"Nawrócony" 223
+"O ideale doskonałości" 208
+"Pan Wesołowski i jego kij" 193
+"Pod szychtami" 153
+"Powiastki cmentarne" 40
+"Przeklęte szczęście" 195
+"Sukienka balowa" 160
+"Żywy telegraf" 124
+"Achilles" 145
+"Byłbym cię oddał..." 137
+"Capri" 142
+"Do Nieznajomej" 114
+"Dziwna chwila" 146
+"Elegia na śmierć Czarnego Zawiszy" 66
+"Fragment z «Fantazji»" 154
+"Grób poety" 91
+"Herakles" 133
+"Hymn do Nirwany" 78
+"Ironia" 128
+"Już nie wiem, co poza mną było..." 128
+"Koniec wieku" 87
+"Leda" 176
+"Lubię, kiedy kobieta..." 110
+"Mastodonty" 116
+"Muszla" 117
+"Na pamiątkę" 219
+"Narodziny wiosny" 218
+"Na wiosnę" 46
+"Niewierny" 144
+"Nimfy" 40
+"Orzeł" 173
+"Pamięć - to cmentarz..." 213
+"Pieśń o Jaśku zbójniku" 105
+"Podczas burzy" 222
+"Pod Portici" 154
+"Potok symboliczny" 162
+"Próżno w swej duszy..." 164
+"Przebudzenie Jehowy" 136
+"Przy Morskim Oku" 190
+"Pusty okręt" 129
+"Rycerz" 65
+"Śpiąca królewna" 210
+"Salo
