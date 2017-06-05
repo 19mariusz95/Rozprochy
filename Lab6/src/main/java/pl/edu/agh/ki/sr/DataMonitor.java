@@ -9,6 +9,7 @@ import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.data.Stat;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class DataMonitor implements Watcher, StatCallback {
     private ZooKeeper zk;
@@ -25,6 +26,7 @@ public class DataMonitor implements Watcher, StatCallback {
         this.chainedWatcher = chainedWatcher;
         this.listener = listener;
         zk.exists(znode, true, this, null);
+        zk.getChildren(znode, this);
     }
 
     public interface DataMonitorListener {
@@ -54,7 +56,7 @@ public class DataMonitor implements Watcher, StatCallback {
             }
         } else if(event.getType() == Event.EventType.NodeChildrenChanged) {
             try {
-                System.out.println(zk.getChildren(znode, this).size());
+                System.out.println(countDescendants());
             } catch (KeeperException | InterruptedException e) {
                 e.printStackTrace();
             }
@@ -66,6 +68,21 @@ public class DataMonitor implements Watcher, StatCallback {
         if (chainedWatcher != null) {
             chainedWatcher.process(event);
         }
+    }
+
+    private long countDescendants() throws KeeperException, InterruptedException {
+        List<String> children = zk.getChildren(znode, this);
+        return children.size() + children.stream().mapToLong(child -> countDescendants(znode+"/"+child)).sum();
+    }
+
+    private long countDescendants(String path) {
+        try {
+            List<String> children = zk.getChildren(path, this);
+            return children.size() + children.stream().mapToLong(c -> countDescendants(path+"/"+c)).sum();
+        } catch (KeeperException | InterruptedException e) {
+            e.printStackTrace();
+        }
+        return 0;
     }
 
     public void processResult(int rc, String path, Object ctx, Stat stat) {
