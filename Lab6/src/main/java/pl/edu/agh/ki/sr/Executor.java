@@ -134,11 +134,12 @@ public class Executor implements Watcher, Runnable, DataMonitor.DataMonitorListe
                 }
             }
             try {
+                zk.getChildren(znode, this);
                 child = Runtime.getRuntime().exec(exec);
                 System.out.println("Starting child ");
                 new StreamWriter(child.getInputStream(), System.out);
                 new StreamWriter(child.getErrorStream(), System.err);
-            } catch (IOException e) {
+            } catch (IOException | InterruptedException | KeeperException e) {
                 e.printStackTrace();
             }
         }

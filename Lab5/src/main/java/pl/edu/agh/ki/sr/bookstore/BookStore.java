@@ -22,7 +22,7 @@ public class BookStore {
         ActorRef search = bookstore.actorOf(Props.create(SearchListener.class), "search");
         ActorRef order = bookstore.actorOf(Props.create(OrderActor.class), "order");
         ActorRef text = bookstore.actorOf(Props.create(BookTextActor.class), "text");
-        ActorRef searchResult = bookstore.actorOf(Props.create(SearchActorResult.class), "searchResult");
+//        ActorRef searchResult = bookstore.actorOf(Props.create(SearchActorResult.class), "searchResult");
 
         Scanner scanner = new Scanner(System.in);
         while(scanner.hasNextLine()){
